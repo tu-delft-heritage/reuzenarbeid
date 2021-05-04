@@ -2,14 +2,15 @@
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset='utf-8' />
-  <title>The Changing Shoreline of New York City</title>
+  <title>Reuzenarbeid</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <script src='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
-  <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+  <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -20,10 +21,8 @@
     <header>
       <div class="page trigger-overview">
         <div id="title" class="sticky">
-          <h1 class="wavy pointer-events">
-            The Changing<br />
-            Shoreline<br />
-            of New York City
+          <h1 class="pointer-events">
+            Reuzenarbeid
           </h1>
         </div>
       </div>
@@ -37,11 +36,11 @@
     </header>
     <main>
       <script type="text/javascript">
-        var areaTitles = {}
+        const projectTitles = {}
       </script>
-      <ol id="areas">
-        {% for area_id in site.data.areas %}
-          {% include area.html area_id=area_id %}
+      <ol id="projects">
+        {% for project_id in site.data.projects %}
+          {% include project.html project_id=project_id %}
         {% endfor %}
       </ol>
     </main>
@@ -56,19 +55,16 @@
     </footer>
   </article>
   <script type="text/javascript">
-    var areas = {{ site.data.areas | jsonify }}
+    const projects = {{ site.data.projects | jsonify }}
 
-    var allGeojson = {% include areas.geojson %}
-    var geojson = {
+    const allGeojson = {% include projects.geojson %}
+    const geojson = {
       type: 'FeatureCollection',
-      features: allGeojson.features.filter(function (feature) {
-        return areas.indexOf(feature.properties.id) >= 0
-      })
+      features: allGeojson.features
+        .filter((feature) => projects.includes(feature.properties.id))
     }
-
-    allGeojson = undefined
   </script>
   <script src="js/scrollMonitor.js"></script>
-  <script src="js/shorelines.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,3 +1,5 @@
+/* global mapboxgl projectTitles */
+
 var FADE_MS = 1000
 var MAX_GEOJSON_OPACITY = 0.85
 
@@ -21,11 +23,11 @@ geojson.features.forEach(function (feature) {
   featuresById[feature.properties.id] = feature
 })
 
-function getFeature (areaId) {
-  var feature = featuresById[areaId]
+function getFeature (projectId) {
+  var feature = featuresById[projectId]
 
   if (!feature) {
-    console.error('Feature not found:', areaId)
+    console.error('Feature not found:', projectId)
   }
 
   return feature
@@ -37,8 +39,8 @@ function forEach (array, callback) {
   }
 }
 
-function getBounds (areaId) {
-  var feature = getFeature(areaId)
+function getBounds (projectId) {
+  var feature = getFeature(projectId)
 
   if (feature) {
     return feature.properties.bounds
@@ -48,20 +50,20 @@ function getBounds (areaId) {
 var watchers = []
 
 function addScrollListeners () {
-  forEach(document.querySelectorAll('.trigger-area'), function () {
-    var areaId = this.getAttribute('data-area-id')
+  forEach(document.querySelectorAll('.trigger-project'), function () {
+    var projectId = this.getAttribute('data-project-id')
     var elementWatcher = scrollMonitor.create(this)
 
     elementWatcher.enterViewport(function () {
-      fitBounds(getBounds(areaId))
+      fitBounds(getBounds(projectId))
     })
 
     watchers.push(elementWatcher)
   })
 
   forEach(document.querySelectorAll('.trigger-geojson'), function () {
-    var areaId = this.getAttribute('data-area-id')
-    var feature = getFeature(areaId)
+    var projectId = this.getAttribute('data-project-id')
+    var feature = getFeature(projectId)
     var elementWatcher = scrollMonitor.create(this)
 
     if (!feature) {
@@ -69,7 +71,7 @@ function addScrollListeners () {
     }
 
     elementWatcher.enterViewport(function () {
-      highlightArea(feature.properties.id)
+      highlightProject(feature.properties.id)
     })
 
     elementWatcher.exitViewport(function () {
@@ -81,13 +83,13 @@ function addScrollListeners () {
 
   forEach(document.querySelectorAll('.trigger-mapwarper'), function () {
     var mapId = this.getAttribute('data-map-id')
-    var areaId = this.getAttribute('data-area-id')
+    var projectId = this.getAttribute('data-project-id')
 
     var elementWatcher = scrollMonitor.create(this)
 
     elementWatcher.enterViewport(function () {
       showMapWarperMap(mapId)
-      fitBounds(getBounds(areaId))
+      fitBounds(getBounds(projectId))
     })
     elementWatcher.exitViewport(function () {
       hideMapWarperMap()
@@ -102,7 +104,7 @@ function addScrollListeners () {
     elementWatcher.enterViewport(function () {
       overviewShown = true
       flyTo([-73.9414, 40.7703], 11)
-      highlightArea()
+      highlightProject()
     })
 
     elementWatcher.exitViewport(function () {
@@ -142,13 +144,13 @@ function flyTo (center, zoom) {
 
 var geojsonTimeout
 
-function highlightArea (areaId) {
+function highlightProject (projectId) {
   if (geojsonTimeout) {
     clearTimeout(geojsonTimeout)
   }
 
-  if (areaId) {
-    map.setFilter('geojson', ['==', 'id', areaId])
+  if (projectId) {
+    map.setFilter('geojson', ['==', 'id', projectId])
   } else {
     map.setFilter('geojson', ['!=', 'id', ''])
   }
@@ -293,10 +295,10 @@ map.on('load', function () {
     map.getCanvas().style.cursor = 'pointer'
 
     if (overviewShown) {
-      var areaId = event.features[0].properties.id
+      var projectId = event.features[0].properties.id
 
       popup.setLngLat(event.lngLat)
-        .setHTML(areaTitles[areaId])
+        .setHTML(projectTitles[projectId])
         .addTo(map)
     }
   })
@@ -314,11 +316,11 @@ map.on('load', function () {
     removeScrollListeners()
     popup.remove()
 
-    var areaId = event.features[0].properties.id
-    location.href = '#' + areaId
+    var projectId = event.features[0].properties.id
+    location.href = '#' + projectId
 
-    fitBounds(getBounds(areaId))
-    highlightArea(areaId)
+    fitBounds(getBounds(projectId))
+    highlightProject(projectId)
 
     window.setTimeout(addScrollListeners, 1000)
   })
@@ -342,7 +344,7 @@ forEach(document.querySelectorAll('.opacity-slider'), function () {
   })
 })
 
-function PanControl() { }
+function PanControl () { }
 
 PanControl.prototype.onAdd = function (map) {
   this._map = map
