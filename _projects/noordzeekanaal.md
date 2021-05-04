@@ -1,8 +1,6 @@
 ---
 allmaps:
-  annotationId: 15200
-  title:
-  # year:
+  annotationId: rqv87MqKRuqiTt5m
 title: Noordzeekanaal
 ---
 
