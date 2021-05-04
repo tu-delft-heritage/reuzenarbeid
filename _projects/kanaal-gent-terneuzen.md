@@ -1,8 +1,6 @@
 ---
 allmaps:
   annotationId:
-  title:
-  # year:
 title: Kanaal Gent&#8209;Terneuzen
 ---
 

@@ -1,8 +1,6 @@
 ---
 allmaps:
-  annotationId:
-  title:
-  # year:
+  annotationId: gdwFqCxmNPKe91SH
 title: Merwedekanaal
 ---
 
