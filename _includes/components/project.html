@@ -43,46 +43,16 @@
 
 <template id="project-template">
   <style>
-    /* @import "css/style.css"; */
-
-    .box, .title-container {
-      max-width: 650px;
-    }
-
-    .box {
-      background-color: #fdfdfd;
-      padding: 1em;
-      margin: 1em 0;
-
-      border-radius: 4px;
-      box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1);
-    }
-
-    .page {
-      width: 100%;
-      min-height: 190vh;
-      position: relative;
-      clear: both;
-    }
-
-    img {
-      width: 100%;
-    }
-
-    /* h2 {
-      font-size: 300%;
-    } */
+    @import "css/style.css";
   </style>
 
   <div>
     <div class="page trigger-project trigger-geojson" data-project-id="{{ project_id }}">
       <div class="sticky">
         <div class="title-container">
-          <h2>
-            <a name="{{ project_id }}" id="{{ project_id }}" class="pointer-events">
-              <slot name="header">
-              </slot>
-            </a>
+          <h2 class="pointer-events">
+            <slot name="header">
+            </slot>
           </h2>
         </div>
       </div>
@@ -97,15 +67,15 @@
       <a href="#table-of-contents"><span class="link">Inhoudsopgave</span><span> ⟶</span></a>
     </div>
   </section>
-  <div class="page trigger-map" data-project-id="{{ project_id }}" data-annotation-id="{{ project.allmaps.annotationId }}">
+  <!-- <div class="page trigger-map" data-project-id="{{ project_id }}" data-annotation-id="{{ project.allmaps.annotationId }}">
     <div class="box sticky">
       <div class="box-contents">
         <p>
           Map: <a href="http://digitalcollections.nypl.org/items/{{ project.allmaps.annotationId }}"><i>{{ project.map.title }} ({{ project.map.year }})</i></a>
-          <!-- opacity: <input class="opacity-slider" type="range" value="100" min="0" max="100"> -->
+
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="page"></div>
 </template>

@@ -2,13 +2,13 @@
 
 let warpedMapLayer
 
-async function fetchJSON (url) {
+async function fetchJSON(url) {
   const response = await fetch(url)
   const json = await response.json()
   return json
 }
 
-async function fetchImage (imageUri) {
+async function fetchImage(imageUri) {
   const json = await fetchJSON(`${imageUri}/info.json`)
   return json
 }
@@ -34,6 +34,32 @@ const map = new ol.Map({
     dragBox: false
   })
 })
+
+loadGeoJSON()
+
+async function loadGeoJSON() {
+  const geojson = await fetchJSON('projects.geojson')
+
+  const vectorSource = new ol.source.Vector({
+    features: new ol.format.GeoJSON().readFeatures(geojson, {
+      featureProjection: 'EPSG:3857'
+    })
+  })
+
+  const vectorLayer = new ol.layer.Vector({
+    source: vectorSource,
+    style: new ol.style.Style({
+      stroke: new ol.style.Stroke({
+        color: 'rgb(166, 61, 46)',
+        width: 5
+      })
+    })
+  })
+
+  vectorLayer.setZIndex(100)
+
+  map.addLayer(vectorLayer)
+}
 
 async function loadAnnotation (annotationUrl) {
   const maps = annotation.parse(await fetchJSON(annotationUrl))

@@ -3,7 +3,9 @@
 <li class="project">
   <project-component
   data-project-id="{{ project_id }}" data-annotation-id="{{ project.allmaps.annotationId }}">
-    <h1 slot="header">{{ project.title }}</h1>
+    <a slot="header" name="{{ project_id }}" id="{{ project_id }}">
+      {{ project.title }}
+    </a>
     {{ project.output }}
   </project-component>
 </li>
