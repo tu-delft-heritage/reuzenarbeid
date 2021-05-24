@@ -1,0 +1,111 @@
+<script>
+  class Project extends HTMLElement {
+    constructor() {
+      super()
+
+      let template = document.getElementById('project-template')
+      let templateContent = template.content
+
+      const shadowRoot = this.attachShadow({ mode: 'open' })
+        .appendChild(templateContent.cloneNode(true))
+    }
+
+    handleIntersect (entries, observer) {
+      entries.forEach((entry) => {
+        if (entry.intersectionRatio > 0) {
+          const focusEvent = new CustomEvent('project-focus', {
+            bubbles: true,
+            cancelable: false,
+            detail: {
+              annotationId: this.annotationId,
+              projectId: this.projectId
+            }
+          })
+
+          this.dispatchEvent(focusEvent)
+        }
+      })
+    }
+
+    connectedCallback () {
+      const trigger = this.shadowRoot.querySelector('.trigger-project')
+
+      this.projectId = this.shadowRoot.host.getAttribute('data-project-id')
+      this.annotationId = this.shadowRoot.host.getAttribute('data-annotation-id')
+
+      let observer = new IntersectionObserver(this.handleIntersect.bind(this))
+      observer.observe(trigger)
+    }
+  }
+
+  customElements.define('project-component', Project)
+</script>
+
+<template id="project-template">
+  <style>
+    /* @import "css/style.css"; */
+
+    .box, .title-container {
+      max-width: 650px;
+    }
+
+    .box {
+      background-color: #fdfdfd;
+      padding: 1em;
+      margin: 1em 0;
+
+      border-radius: 4px;
+      box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1);
+    }
+
+    .page {
+      width: 100%;
+      min-height: 190vh;
+      position: relative;
+      clear: both;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    /* h2 {
+      font-size: 300%;
+    } */
+  </style>
+
+  <div>
+    <div class="page trigger-project trigger-geojson" data-project-id="{{ project_id }}">
+      <div class="sticky">
+        <div class="title-container">
+          <h2>
+            <a name="{{ project_id }}" id="{{ project_id }}" class="pointer-events">
+              <slot name="header">
+              </slot>
+            </a>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="box">
+    <div class="box-contents">
+      <slot></slot>
+    </div>
+    <div class="page-controls">
+      <a href="#"><span>⟵ </span><span class="link">Terug naar begin</span></a>
+      <a href="#table-of-contents"><span class="link">Inhoudsopgave</span><span> ⟶</span></a>
+    </div>
+  </section>
+  <div class="page trigger-map" data-project-id="{{ project_id }}" data-annotation-id="{{ project.allmaps.annotationId }}">
+    <div class="box sticky">
+      <div class="box-contents">
+        <p>
+          Map: <a href="http://digitalcollections.nypl.org/items/{{ project.allmaps.annotationId }}"><i>{{ project.map.title }} ({{ project.map.year }})</i></a>
+          <!-- opacity: <input class="opacity-slider" type="range" value="100" min="0" max="100"> -->
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="page"></div>
+</template>

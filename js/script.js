@@ -1,386 +1,91 @@
-/* global mapboxgl projectTitles */
+/* global ol, fetch, annotation, transform, allmapsLayers */
 
-var FADE_MS = 1000
-var MAX_GEOJSON_OPACITY = 0.85
+let warpedMapLayer
 
-var overviewShown = true
-
-var dragPanEnabled = true
-
-function polygonToBounds (polygon) {
-  var outerRing = polygon.coordinates[0]
-
-  var bounds = outerRing.reduce(function (bounds, coord) {
-    return bounds.extend(coord)
-  }, new mapboxgl.LngLatBounds(outerRing[0], outerRing[0]))
-
-  return bounds
+async function fetchJSON (url) {
+  const response = await fetch(url)
+  const json = await response.json()
+  return json
 }
 
-var featuresById = {}
-geojson.features.forEach(function (feature) {
-  feature.properties.bounds = polygonToBounds(feature.geometry)
-  featuresById[feature.properties.id] = feature
-})
-
-function getFeature (projectId) {
-  var feature = featuresById[projectId]
-
-  if (!feature) {
-    console.error('Feature not found:', projectId)
-  }
-
-  return feature
+async function fetchImage (imageUri) {
+  const json = await fetchJSON(`${imageUri}/info.json`)
+  return json
 }
 
-function forEach (array, callback) {
-  for (var index = 0; index < array.length; index++) {
-    callback.call(array[index], index)
-  }
-}
+const tileUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}'
 
-function getBounds (projectId) {
-  var feature = getFeature(projectId)
-
-  if (feature) {
-    return feature.properties.bounds
-  }
-}
-
-var watchers = []
-
-function addScrollListeners () {
-  forEach(document.querySelectorAll('.trigger-project'), function () {
-    var projectId = this.getAttribute('data-project-id')
-    var elementWatcher = scrollMonitor.create(this)
-
-    elementWatcher.enterViewport(function () {
-      fitBounds(getBounds(projectId))
+const map = new ol.Map({
+  target: 'map',
+  layers: [
+    new ol.layer.Tile({
+      source: new ol.source.XYZ({
+        url: tileUrl
+      })
     })
-
-    watchers.push(elementWatcher)
-  })
-
-  forEach(document.querySelectorAll('.trigger-geojson'), function () {
-    var projectId = this.getAttribute('data-project-id')
-    var feature = getFeature(projectId)
-    var elementWatcher = scrollMonitor.create(this)
-
-    if (!feature) {
-      return
-    }
-
-    elementWatcher.enterViewport(function () {
-      highlightProject(feature.properties.id)
-    })
-
-    elementWatcher.exitViewport(function () {
-      hideGeoJSON()
-    })
-
-    watchers.push(elementWatcher)
-  })
-
-  forEach(document.querySelectorAll('.trigger-mapwarper'), function () {
-    var mapId = this.getAttribute('data-map-id')
-    var projectId = this.getAttribute('data-project-id')
-
-    var elementWatcher = scrollMonitor.create(this)
-
-    elementWatcher.enterViewport(function () {
-      showMapWarperMap(mapId)
-      fitBounds(getBounds(projectId))
-    })
-    elementWatcher.exitViewport(function () {
-      hideMapWarperMap()
-    })
-
-    watchers.push(elementWatcher)
-  })
-
-  forEach(document.querySelectorAll('.trigger-overview'), function () {
-    var elementWatcher = scrollMonitor.create(this)
-
-    elementWatcher.enterViewport(function () {
-      overviewShown = true
-      flyTo([-73.9414, 40.7703], 11)
-      highlightProject()
-    })
-
-    elementWatcher.exitViewport(function () {
-      hideGeoJSON()
-      overviewShown = false
-    })
-
-    watchers.push(elementWatcher)
-  })
-}
-
-function removeScrollListeners () {
-  watchers.forEach(function (watcher) {
-    watcher.destroy()
-  })
-
-  watchers = []
-}
-
-function fitBounds (bounds) {
-  if (!bounds) {
-    return
-  }
-
-  map.fitBounds(bounds, {
-    padding: 100,
-    maxZoom: 16
-  })
-}
-
-function flyTo (center, zoom) {
-  map.flyTo({
-    center: center,
-    zoom: zoom
-  })
-}
-
-var geojsonTimeout
-
-function highlightProject (projectId) {
-  if (geojsonTimeout) {
-    clearTimeout(geojsonTimeout)
-  }
-
-  if (projectId) {
-    map.setFilter('geojson', ['==', 'id', projectId])
-  } else {
-    map.setFilter('geojson', ['!=', 'id', ''])
-  }
-
-  map.setPaintProperty('geojson', 'line-opacity', MAX_GEOJSON_OPACITY)
-}
-
-function hideGeoJSON () {
-  map.setPaintProperty('geojson', 'line-opacity', 0)
-}
-
-function showMapWarperMap (mapId) {
-  if (map.getLayer('mapwarper')) {
-    hideMapWarperMap(true)
-  }
-
-  if (mapId) {
-    map.addSource('mapwarper', {
-      type: 'raster',
-      tileSize: 256,
-      tiles: [
-        'http://maps.nypl.org/warper/maps/tile/' + mapId + '/{z}/{x}/{y}.png'
-      ]
-    })
-
-    map.addLayer({
-      id: 'mapwarper',
-      type: 'raster',
-      source: 'mapwarper',
-      minzoom: 0,
-      maxzoom: 22,
-      paint: {
-        'raster-opacity': 0,
-        'raster-opacity-transition': {
-          duration: FADE_MS / 4
-        }
-      }
-    })
-
-    map.setPaintProperty('mapwarper', 'raster-opacity', 1)
-  }
-}
-
-function hideMapWarperMap (immediately) {
-  if (map.getLayer('mapwarper')) {
-    map.setPaintProperty('mapwarper', 'raster-opacity', 0)
-
-    if (immediately) {
-      map.removeLayer('mapwarper')
-      map.removeSource('mapwarper')
-    } else {
-      setTimeout(function() {
-        hideMapWarperMap(true)
-      }, FADE_MS)
-    }
-  }
-}
-
-mapboxgl.accessToken = 'pk.eyJ1IjoibnlwbGxhYnMiLCJhIjoiSFVmbFM0YyJ9.sl0CRaO71he1XMf_362FZQ'
-
-var map = new mapboxgl.Map({
-  container: 'map',
-  style: 'mapbox://styles/nypllabs/cj9n35rvp33g52srug5gwa98c',
-  center: [-73.98579, 40.71571],
-  zoom: 14
-})
-
-var navigationControl = new mapboxgl.NavigationControl()
-
-map.scrollZoom.disable()
-map.boxZoom.disable()
-map.dragRotate.disable()
-map.touchZoomRotate.disable()
-
-map.dragRotate.disable()
-
-map.keyboard.enable()
-map.doubleClickZoom.enable()
-
-function enableDragPan () {
-  dragPanEnabled = true
-  map.dragPan.enable()
-}
-
-function disableDragPan () {
-  dragPanEnabled = false
-  map.dragPan.disable()
-}
-
-enableDragPan()
-
-map.addControl(navigationControl, 'bottom-right')
-
-var popup = new mapboxgl.Popup({
-  closeButton: false,
-  closeOnClick: false
-})
-
-map.on('load', function () {
-  map.addSource('geojson', {
-    type: 'geojson',
-    data: geojson
-  })
-
-  map.addLayer({
-    id: 'geojson',
-    type: 'line',
-    source: 'geojson',
-    layout: {
-      'line-join': 'round',
-      'line-cap': 'round'
-    },
-    paint: {
-      'line-color': '#f99b21',
-      'line-opacity': MAX_GEOJSON_OPACITY,
-      'line-width': {
-        base: 1,
-        stops: [
-          [12, 4],
-          [15, 20]
-        ]
-      },
-      'line-opacity-transition': {
-        duration: FADE_MS
-      }
-    },
-    filter: ['!=', 'id', '']
-  })
-
-  map.addLayer({
-    id: 'geojson-fill',
-    type: 'fill',
-    source: 'geojson',
-    layout: {},
-    paint: {
-      'fill-color': '#F99B21',
-      'fill-opacity': 0.05
-    }
-  })
-
-  map.on('mouseenter', 'geojson-fill', function (event) {
-    map.getCanvas().style.cursor = 'pointer'
-
-    if (overviewShown) {
-      var projectId = event.features[0].properties.id
-
-      popup.setLngLat(event.lngLat)
-        .setHTML(projectTitles[projectId])
-        .addTo(map)
-    }
-  })
-
-  map.on('mouseleave', 'geojson-fill', function() {
-    map.getCanvas().style.cursor = ''
-    popup.remove()
-  })
-
-  map.on('click', 'geojson-fill', function (event) {
-    if (!overviewShown) {
-      return
-    }
-
-    removeScrollListeners()
-    popup.remove()
-
-    var projectId = event.features[0].properties.id
-    location.href = '#' + projectId
-
-    fitBounds(getBounds(projectId))
-    highlightProject(projectId)
-
-    window.setTimeout(addScrollListeners, 1000)
-  })
-
-  map.on('mouseenter', 'geojson-fill', function () {
-    map.getCanvas().style.cursor = 'pointer'
-  })
-
-  map.on('mouseleave', 'geojson-fill', function () {
-    map.getCanvas().style.cursor = ''
-  })
-
-  addScrollListeners()
-})
-
-forEach(document.querySelectorAll('.opacity-slider'), function () {
-  this.addEventListener('input', function () {
-    if (map.getLayer('mapwarper')) {
-      map.setPaintProperty('mapwarper', 'raster-opacity', this.value / 100)
-    }
+  ],
+  view: new ol.View({
+    enableRotation: false,
+    center: ol.proj.fromLonLat([4.922, 52.362]),
+    zoom: 7
+  }),
+  interactions: new ol.interaction.defaults({
+    mouseWheelZoom: false,
+    dragBox: false
   })
 })
 
-function PanControl () { }
+async function loadAnnotation (annotationUrl) {
+  const maps = annotation.parse(await fetchJSON(annotationUrl))
+  const firstMap = maps[0]
 
-PanControl.prototype.onAdd = function (map) {
-  this._map = map
-  this._container = document.createElement('div')
-  this._container.className = 'mapboxgl-ctrl mapboxgl-ctrl-group'
+  const transformArgs = transform.createTransformer(firstMap.gcps)
+  const polygon = firstMap.pixelMask
+    .map((point) => transform.toWorld(transformArgs, point))
 
-  var button = document.createElement('button')
+  const geoMask = {
+    type: 'Polygon',
+    coordinates: [polygon]
+  }
 
-  button.className = 'mapboxgl-ctrl-icon'
-  button.style.backgroundImage = 'url(images/arrows-ns.svg)'
+  const extent = ol.proj.transformExtent(new ol.source.Vector({
+    features: new ol.format.GeoJSON().readFeatures(geoMask)
+  }).getExtent(), 'EPSG:4326', 'EPSG:3857')
 
-  button.setAttribute('aria-label', 'Toggle map panning')
+  const view = map.getView()
+  const resolution = view.getResolutionForExtent(extent)
+  const zoom = view.getZoomForResolution(resolution)
+  const center = ol.extent.getCenter(extent)
 
-  button.addEventListener('click', function () {
-    if (dragPanEnabled) {
-      disableDragPan()
-      button.style.backgroundImage = 'url(images/arrows-ns.svg)'
-    } else {
-      enableDragPan()
-      button.style.backgroundImage = 'url(images/arrows-nswe.svg)'
-    }
+  const imageUri = firstMap.image.uri
+  const image = await fetchImage(imageUri)
+
+  const options = {
+    image,
+    georeferencedMap: firstMap,
+    source: new ol.source.Vector()
+  }
+
+  if (warpedMapLayer) {
+    map.removeLayer(warpedMapLayer)
+    warpedMapLayer.destroy()
+  }
+
+  warpedMapLayer = new allmapsLayers.WarpedMapLayer(options)
+  map.addLayer(warpedMapLayer)
+
+  view.animate({
+    center,
+    zoom: zoom - 0.1,
+    duration: 1000
   })
-
-  this._container.appendChild(button)
-
-  return this._container
 }
 
-PanControl.prototype.onRemove = function () {
-  this._container.parentNode.removeChild(this._container)
-  this._map = undefined
-}
+window.addEventListener('project-focus', (event) => {
+  const annotationId = event.detail.annotationId
 
-var panControl = new PanControl()
-
-if ('ontouchstart' in window) {
-  disableDragPan()
-  map.addControl(panControl, 'bottom-right')
-}
+  if (annotationId) {
+    const annotationUrl = `https://annotations.allmaps.org/images/${annotationId}`
+    loadAnnotation(annotationUrl)
+  }
+})

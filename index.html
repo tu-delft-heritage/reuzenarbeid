@@ -5,15 +5,20 @@
 <html lang="nl">
 <head>
   <meta charset='utf-8' />
-  <title>Reuzenarbeid</title>
+  <title>{{ site.title }}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
   <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/@allmaps/annotation/dist/annotation.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@allmaps/transform/dist/transform.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@allmaps/layers/dist/layers.umd.min.js"></script>
+
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  {% include components/project.html %}
   <div id="map-container">
     <div id="map"></div>
   </div>
@@ -22,7 +27,7 @@
       <div class="page trigger-overview">
         <div id="title" class="sticky">
           <h1 class="pointer-events">
-            Reuzenarbeid
+            {{ site.title }}
           </h1>
         </div>
       </div>
@@ -54,17 +59,6 @@
       </section>
     </footer>
   </article>
-  <script type="text/javascript">
-    const projects = {{ site.data.projects | jsonify }}
-
-    const allGeojson = {% include projects.geojson %}
-    const geojson = {
-      type: 'FeatureCollection',
-      features: allGeojson.features
-        .filter((feature) => projects.includes(feature.properties.id))
-    }
-  </script>
-  <script src="js/scrollMonitor.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
