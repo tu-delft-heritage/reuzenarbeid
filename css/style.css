@@ -35,6 +35,8 @@ article {
 h1, h2, h3 {
   padding: 0;
   margin: 0.25em 0;
+  text-shadow: 0 0 5px #0006;
+  color: white;
 }
 
 p, ul, .figure {
@@ -118,7 +120,7 @@ body, .box {
   background-color: #fdfdfd;
 }
 
-body, a, a:visited {
+body, .box a, .box a:visited {
   color: #222;
 }
 
@@ -241,13 +243,13 @@ header, main, footer {
 }
 
 @media (max-width: 750px) {
-  h1.wavy {
+  h1 {
     font-size: 250%;
     background-size: 80px;
     line-height: 1.8;
   }
 
-  h2.wavy {
+  h2 {
     font-size: 200%;
     background-size: 65px;
     line-height: 1.8;

@@ -13,8 +13,6 @@ async function fetchImage(imageUri) {
   return json
 }
 
-const tileUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}'
-
 const map = new ol.Map({
   target: 'map',
   layers: [
