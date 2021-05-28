@@ -1,14 +1,15 @@
-/* global ol, fetch, annotation, transform, allmapsLayers */
+/* global ol, fetch, annotation, transform, allmapsLayers, tileUrl */
 
 let warpedMapLayer
+let geojson
 
-async function fetchJSON(url) {
+async function fetchJSON (url) {
   const response = await fetch(url)
   const json = await response.json()
   return json
 }
 
-async function fetchImage(imageUri) {
+async function fetchImage (imageUri) {
   const json = await fetchJSON(`${imageUri}/info.json`)
   return json
 }
@@ -35,8 +36,8 @@ const map = new ol.Map({
 
 loadGeoJSON()
 
-async function loadGeoJSON() {
-  const geojson = await fetchJSON('projects.geojson')
+async function loadGeoJSON () {
+  geojson = await fetchJSON('projects.geojson')
 
   const vectorSource = new ol.source.Vector({
     features: new ol.format.GeoJSON().readFeatures(geojson, {
@@ -59,27 +60,9 @@ async function loadGeoJSON() {
   map.addLayer(vectorLayer)
 }
 
-async function loadAnnotation (annotationUrl) {
+async function loadAnnotation (annotationUrl, projectId) {
   const maps = annotation.parse(await fetchJSON(annotationUrl))
   const firstMap = maps[0]
-
-  const transformArgs = transform.createTransformer(firstMap.gcps)
-  const polygon = firstMap.pixelMask
-    .map((point) => transform.toWorld(transformArgs, point))
-
-  const geoMask = {
-    type: 'Polygon',
-    coordinates: [polygon]
-  }
-
-  const extent = ol.proj.transformExtent(new ol.source.Vector({
-    features: new ol.format.GeoJSON().readFeatures(geoMask)
-  }).getExtent(), 'EPSG:4326', 'EPSG:3857')
-
-  const view = map.getView()
-  const resolution = view.getResolutionForExtent(extent)
-  const zoom = view.getZoomForResolution(resolution)
-  const center = ol.extent.getCenter(extent)
 
   const imageUri = firstMap.image.uri
   const image = await fetchImage(imageUri)
@@ -98,18 +81,52 @@ async function loadAnnotation (annotationUrl) {
   warpedMapLayer = new allmapsLayers.WarpedMapLayer(options)
   map.addLayer(warpedMapLayer)
 
-  view.animate({
-    center,
-    zoom: zoom - 0.1,
-    duration: 1000
-  })
+  const projectFeature = geojson.features
+    .filter((feature) => feature.properties.id === projectId)[0]
+
+  // const transformArgs = transform.createTransformer(firstMap.gcps)
+  // const polygon = firstMap.pixelMask
+  //   .map((point) => transform.toWorld(transformArgs, point))
+
+  // const geoMask = {
+  //   type: 'Polygon',
+  //   coordinates: [polygon]
+  // }
+
+  // const extent = ol.proj.transformExtent(new ol.source.Vector({
+  //   features: new ol.format.GeoJSON().readFeatures(geoMask)
+  // }).getExtent(), 'EPSG:4326', 'EPSG:3857')
+
+  // const view = map.getView()
+  // const resolution = view.getResolutionForExtent(extent)
+  // const zoom = view.getZoomForResolution(resolution)
+  // const center = ol.extent.getCenter(extent)
+
+  if (projectFeature) {
+    const view = map.getView()
+
+    const extent = ol.proj.transformExtent(new ol.source.Vector({
+      features: new ol.format.GeoJSON().readFeatures(projectFeature.geometry)
+    }).getExtent(), 'EPSG:4326', 'EPSG:3857')
+
+    const resolution = view.getResolutionForExtent(extent)
+    const zoom = view.getZoomForResolution(resolution)
+    const center = ol.extent.getCenter(extent)
+
+    view.animate({
+      center,
+      zoom: zoom - 0.1,
+      duration: 4000
+    })
+  }
 }
 
 window.addEventListener('project-focus', (event) => {
   const annotationId = event.detail.annotationId
+  const projectId = event.detail.projectId
 
-  if (annotationId) {
+  if (annotationId && projectId) {
     const annotationUrl = `https://annotations.allmaps.org/images/${annotationId}`
-    loadAnnotation(annotationUrl)
+    loadAnnotation(annotationUrl, projectId)
   }
 })
