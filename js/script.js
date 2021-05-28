@@ -3,6 +3,8 @@
 let warpedMapLayer
 let geojson
 
+// let dragPanEnabled = true
+
 async function fetchJSON (url) {
   const response = await fetch(url)
   const json = await response.json()
@@ -30,7 +32,8 @@ const map = new ol.Map({
   }),
   interactions: new ol.interaction.defaults({
     mouseWheelZoom: false,
-    dragBox: false
+    dragBox: false,
+    dragPan: false
   })
 })
 
@@ -130,3 +133,12 @@ window.addEventListener('project-focus', (event) => {
     loadAnnotation(annotationUrl, projectId)
   }
 })
+
+// function disableDragPan () {
+//   dragPanEnabled = false
+// }
+
+if ('ontouchstart' in window) {
+  // disableDragPan()
+  // map.addControl(panControl, 'bottom-right')
+}
