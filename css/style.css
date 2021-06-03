@@ -20,7 +20,6 @@ body {
 #map {
   margin: 0 auto;
   width: 100%;
-  max-width: 1440px;
 }
 
 article {
@@ -84,6 +83,7 @@ tr:nth-child(even) {
 .box {
   padding: 1em;
   margin: 1em 0;
+  overflow-x: auto;
   background-color: var(--blue);
 
   /*box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);*/
