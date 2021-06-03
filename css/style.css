@@ -58,6 +58,7 @@ blockquote {
 
 table {
   width: 100%;
+  font-size: 1rem;
   margin-bottom: 1.4rem;
   border-collapse: collapse;
 }
@@ -83,7 +84,6 @@ tr:nth-child(even) {
 .box {
   padding: 1em;
   margin: 1em 0;
-  overflow-x: auto;
   background-color: var(--blue);
 
   /*box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);*/
