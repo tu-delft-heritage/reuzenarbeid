@@ -6,6 +6,7 @@
     <a slot="header" name="{{ project_id }}" id="{{ project_id }}">
       {{ project.title }}
     </a>
-    {{ project.output }}
+    <span class="abstract">{{ project.abstract | markdownify }}</span>
+    {{ project.content }}
   </project-component>
 </li>

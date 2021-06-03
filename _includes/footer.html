@@ -1,15 +1,7 @@
 <p>
   Table of contents:
 </p>
-<ol id="table-of-contents">
-  {% for project_id in site.data.projects %}
-    {% assign path = '/projects/' | append: project_id %}
-    {% assign project = site.projects | where:'id', path | first %}
-  <li>
-    <a href="#{{ project_id }}">{{ project.title }}</a>
-  </li>
-  {% endfor %}
-</ol>
+{% include toc.html %}
 <p>
   Reuzenarbeid! Allmaps!
 </p>

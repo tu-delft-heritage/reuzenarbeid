@@ -52,7 +52,7 @@ async function loadGeoJSON () {
     source: vectorSource,
     style: new ol.style.Style({
       stroke: new ol.style.Stroke({
-        color: 'rgb(166, 61, 46)',
+        color: '#5e7a85',
         width: 5
       })
     })

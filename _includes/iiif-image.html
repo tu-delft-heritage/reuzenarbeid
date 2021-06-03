@@ -1,10 +1,10 @@
 <div class="figure">
-  <a href="link to manifest with this image selected">
+  <a target="_blank" href="{{ site.viewerBaseUrl }}{% if include.idno %}{{ site.ManifestBaseUrl }}{{ include.idno }}&cv={{ include.canvas }}{% else %}{{ include.manifest }}{% endif %}">
     <figure>
-      <img src="{{ include.uri }}/{{ include.region }}/1140,/0/default.jpg"
-        alt="{{ include.title }}" />
+      <img src="{% if include.uuid %}{{ site.ImageBaseUrl }}{{ include.uuid }}{% else %}{{ include.uri }}{% endif %}/{{ include.region }}/1140,/0/default.jpg"
+        alt="{{ include.caption }}" />
       <figcaption>
-        <i>{{ include.title }}</i>
+        <i>{{ include.caption }}</i>
       </figcaption>
     </figure>
   </a>
