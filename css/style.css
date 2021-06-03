@@ -58,7 +58,6 @@ blockquote {
 
 table {
   width: 100%;
-  font-size: 1rem;
   margin-bottom: 1.4rem;
   border-collapse: collapse;
 }
@@ -108,6 +107,10 @@ figcaption {
 
   .box {
     padding: 10px;
+  }
+
+  #projects li {
+    width: 100%;
   }
 }
 

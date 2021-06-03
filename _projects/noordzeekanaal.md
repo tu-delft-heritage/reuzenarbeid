@@ -27,6 +27,8 @@ Daarna zetten vele andere hoogwaardigheidsbekleders hun handtekening op de oorko
 
 Enkele cijfers:
 
+<div markdown="1" style="overflow-x: auto;">
+
 |Naam van de sluis|Jaar van totstandkoming|Lengte in m|Breedte in m|Diepte in m|
 --- | --- | --- | --- | ---
 |Kleine sluis|1876|69|12|5|
@@ -47,3 +49,5 @@ Enkele cijfers:
 |1929-1939|13,00|75|
 |1958-1965|15,50|100|
 |1963-1979|15,50|170|
+
+</div>
