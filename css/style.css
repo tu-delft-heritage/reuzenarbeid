@@ -181,18 +181,18 @@ header, main, footer {
   pointer-events: all;
 }
 
-#table-of-contents {
+#toc-top, #toc-bottom {
   columns: 2;
   padding: 0;
 }
 
 @media (max-width: 500px) {
-  #table-of-contents {
+  #toc-top, #toc-bottom {
     columns: 1;
   }
 }
 
-#table-of-contents li {
+#toc-top li, #toc-bottom li {
   margin-left: 2em;
   margin-bottom: 10px;
 }
