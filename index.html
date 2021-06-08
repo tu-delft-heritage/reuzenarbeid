@@ -24,7 +24,7 @@
   </div>
   <article>
     <header>
-      <div class="page trigger-overview">
+      <div class="page trigger" data-trigger-event="show-overview">
         <div id="title" class="sticky">
           <h1 class="pointer-events">
             {{ site.title }}
@@ -47,8 +47,7 @@
       </ol>
     </main>
     <footer>
-      <div class="page trigger-overview">
-      </div>
+      <div class="page trigger" data-trigger-event="show-overview"></div>
       <section class="box">
         <div class="box-contents">
           {% include footer.html %}

@@ -13,7 +13,9 @@
     handleIntersect (entries, observer) {
       entries.forEach((entry) => {
         if (entry.intersectionRatio > 0) {
-          const focusEvent = new CustomEvent('project-focus', {
+          const eventName = entry.target.dataset.triggerEvent
+
+          const event = new CustomEvent(eventName, {
             bubbles: true,
             cancelable: false,
             detail: {
@@ -22,19 +24,19 @@
             }
           })
 
-          this.dispatchEvent(focusEvent)
+          this.dispatchEvent(event)
         }
       })
     }
 
     connectedCallback () {
-      const trigger = this.shadowRoot.querySelector('.trigger-project')
+      this.projectId = this.shadowRoot.host.dataset.projectId
+      this.annotationId = this.shadowRoot.host.dataset.annotationId
 
-      this.projectId = this.shadowRoot.host.getAttribute('data-project-id')
-      this.annotationId = this.shadowRoot.host.getAttribute('data-annotation-id')
+      const observer = new IntersectionObserver(this.handleIntersect.bind(this))
 
-      let observer = new IntersectionObserver(this.handleIntersect.bind(this))
-      observer.observe(trigger)
+      const triggers = this.shadowRoot.querySelectorAll('.trigger')
+      triggers.forEach((trigger) => observer.observe(trigger))
     }
   }
 
@@ -47,7 +49,7 @@
   </style>
 
   <div>
-    <div class="page trigger-project trigger-geojson" data-project-id="{{ project_id }}">
+    <div class="page trigger" data-trigger-event="project-show-geojson">
       <div class="sticky">
         <div class="title-container">
           <h2 class="pointer-events">
@@ -64,18 +66,15 @@
     </div>
     <div class="page-controls">
       <a href="#"><span>⟵ </span><span class="link">Terug naar begin</span></a>
-      <a href="#toc-bottom"><span class="link">Inhoudsopgave</span><span> ⟶</span></a>
+      <a href="#toc"><span class="link">Inhoudsopgave</span><span> ⟶</span></a>
     </div>
   </section>
-  <!-- <div class="page trigger-map" data-project-id="{{ project_id }}" data-annotation-id="{{ project.allmaps.annotationId }}">
+  <div class="page trigger" data-trigger-event="project-show-map">
     <div class="box sticky">
       <div class="box-contents">
-        <p>
-          Map: <a href="http://digitalcollections.nypl.org/items/{{ project.allmaps.annotationId }}"><i>{{ project.map.title }} ({{ project.map.year }})</i></a>
-
-        </p>
+        Hier iets over de kaart
       </div>
     </div>
-  </div> -->
+  </div>
   <div class="page"></div>
 </template>

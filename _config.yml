@@ -6,12 +6,12 @@ tile_url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/M
 # tile_url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
 
 # Preferred IIIF viewer
-viewerBaseUrl: http://uv-v4.netlify.app/uv.html#?manifest=
-# viewerBaseUrl: https://projectmirador.org/embed/?manifest=
+viewer_base_url: http://uv-v4.netlify.app/uv.html#?manifest=
+# viewer_base_url: https://projectmirador.org/embed/?manifest=
 
 # IIIF Server settings
-ImageBaseUrl: https://dlc.services/iiif-img/7/6/
-ManifestBaseUrl: https://dlc.services/iiif-resource/delft/string1string2string3/reuzenarbeid/
+image_base_url: https://dlc.services/iiif-img/7/6/
+manifest_base_url: https://dlc.services/iiif-resource/delft/string1string2string3/reuzenarbeid/
 
 collections:
   projects:

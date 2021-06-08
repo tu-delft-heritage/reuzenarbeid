@@ -1,6 +1,9 @@
 :root {
   --blue: #5e7a85;
   --red: #a13b2d;
+
+  --white: #fdfdfd;
+  --black: #222;
 }
 
 html {
@@ -15,11 +18,6 @@ body {
   background: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.3rem;
-}
-
-#map {
-  margin: 0 auto;
-  width: 100%;
 }
 
 article {
@@ -43,11 +41,10 @@ p, ul, .figure {
   line-height: 2rem;
   margin-bottom: 1.4rem;
   padding-right: 0;
-  color: white;
 }
 
 .abstract {
-  color:var(--red);
+  color: var(--red);
   font-style: italic;
 }
 
@@ -83,13 +80,10 @@ tr:nth-child(even) {
 .box {
   padding: 1em;
   margin: 1em 0;
-  background-color: var(--blue);
+  background-color: var(--white);
 
-  /*box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);*/
-  /*border-radius: 3px;*/
-
-  border-radius: 4px;
-  /*box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1);*/
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
 }
 
 figcaption {
@@ -152,12 +146,12 @@ h2 {
 }
 
 body, .box a, .box a:visited {
-  color: white;
+  color: var(--black);
 }
 
 section a, section a:visited, .link {
   text-decoration: none;
-  border-color: white;
+  border-color: var(--red);
   border-width: 3px;
   border-bottom-style: solid;
 }
@@ -169,7 +163,7 @@ figure img,
 
 .figure a, .figure a:visited {
   text-decoration: none;
-  color: white;
+  color: var(--black);
 }
 
 header, main, footer {
@@ -181,18 +175,18 @@ header, main, footer {
   pointer-events: all;
 }
 
-#toc-top, #toc-bottom {
+.toc {
   columns: 2;
   padding: 0;
 }
 
 @media (max-width: 500px) {
-  #toc-top, #toc-bottom {
+  .toc {
     columns: 1;
   }
 }
 
-#toc-top li, #toc-bottom li {
+.toc li {
   margin-left: 2em;
   margin-bottom: 10px;
 }
@@ -227,7 +221,9 @@ header, main, footer {
 }
 
 #map {
+  margin: 0 auto;
   height: 100vh;
+  width: 100%;
 }
 
 .page-controls {
@@ -266,16 +262,6 @@ header, main, footer {
 
 .indent {
   margin-left: 2em;
-}
-
-.mapboxgl-ctrl-group > button.mapboxgl-ctrl-compass {
-  display: none;
-}
-
-.mapboxgl-popup-content {
-  padding: 1em;
-  font-size: 14px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 @media (max-width: 750px) {

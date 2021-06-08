@@ -13,3 +13,9 @@ The header and footer text can be found in the [`_includes`](_includes) director
 Based on [The Changing Shoreline of New York City](http://spacetime.nypl.org/the-changing-shoreline-of-nyc/).
 
 Inspired by [Travel the path of the solar eclipse](https://www.washingtonpost.com/graphics/national/mapping-the-2017-eclipse).
+
+## Running locally
+
+Run:
+
+    jekyll serve --livereload --incremental --baseurl "/"

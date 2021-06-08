@@ -1,7 +1,7 @@
 <div class="figure">
-  <a target="_blank" href="{{ site.viewerBaseUrl }}{% if include.idno %}{{ site.ManifestBaseUrl }}{{ include.idno }}&cv={{ include.canvas }}{% else %}{{ include.manifest }}{% endif %}">
+  <a target="_blank" href="{{ site.viewer_base_url }}{% if include.idno %}{{ site.manifest_base_url }}{{ include.idno }}&cv={{ include.canvas }}{% else %}{{ include.manifest }}{% endif %}">
     <figure>
-      <img src="{% if include.uuid %}{{ site.ImageBaseUrl }}{{ include.uuid }}{% else %}{{ include.uri }}{% endif %}/{{ include.region }}/1140,/0/default.jpg"
+      <img src="{% if include.uuid %}{{ site.image_base_url }}{{ include.uuid }}{% else %}{{ include.uri }}{% endif %}/{{ include.region }}/1140,/0/default.jpg"
         alt="{{ include.caption }}" />
       <figcaption>
         <i>{{ include.caption }}</i>
