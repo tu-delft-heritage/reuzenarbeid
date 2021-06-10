@@ -7,11 +7,15 @@ tile_url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/M
 
 # Preferred IIIF viewer
 viewer_base_url: http://uv-v4.netlify.app/uv.html#?manifest=
-# viewer_base_url: https://projectmirador.org/embed/?manifest=
+# viewer_base_url: https://projectmirador.org/embed/?manifest= # Canvas selection impossible
 
 # IIIF Server settings
 image_base_url: https://dlc.services/iiif-img/7/6/
 manifest_base_url: https://dlc.services/iiif-resource/delft/string1string2string3/reuzenarbeid/
+
+# Allmaps
+allmaps_api_base: https://annotations.allmaps.org/manifests/
+allmaps_viewer_base: https://viewer.allmaps.org/#data=data:text/x-url,
 
 collections:
   projects:

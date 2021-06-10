@@ -8,5 +8,12 @@
     </a>
     <span class="abstract">{{ project.abstract | markdownify }}</span>
     {{ project.content }}
+    <span slot="map" >
+      <span class="map-title">{{ project.allmaps.title }}</span>
+      <div class="page-controls">
+        <a href="{{ project.allmaps.sourceUrl }}"><span class="link">Bekijk origineel</span></a>
+        <a href="{{ site.allmaps_viewer_base }}{{ site.allmaps_api_base }}{{ project.allmaps.annotationId }}"><span class="link">Open in Allmaps</span></a>
+      </div>
+    </span>
   </project-component>
 </li>

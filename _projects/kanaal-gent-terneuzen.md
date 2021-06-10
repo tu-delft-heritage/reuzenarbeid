@@ -1,7 +1,7 @@
 ---
 allmaps:
   annotationId: PENay42tuhq8jiAs
-  title: Verbetering van het Kanaal van Gent naar Ter Neuzen, bedoeld bij de overeenkomst met België van den 29 juni 1895, goedgekeurd bij de wet van 29 januari 1897 (Staatsblad no. 62) en de additionele overeenkomst van den 8 maart 1902.
+  title: Verbetering van het Kanaal van Gent naar Ter Neuzen (1902)
   sourceUrl: https://commons.wikimedia.org/wiki/File:KAARTEN_SGD_-_Verbetering_van_het_Kanaal_van_Gent_naar_Ter_Neuzen,_bedoeld_bij_de_overeenkomst_met_Belgie_van_den_29_juni_1895,_goedgekeurd_bij_de_wet_van_29_januari_1897_(Staatsblad_no._62)_en_de_addit.jpeg
   sourceTitle: Wikipedia
 title: Kanaal Gent&#8209;Terneuzen

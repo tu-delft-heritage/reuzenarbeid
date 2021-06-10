@@ -1,6 +1,9 @@
 ---
 allmaps:
   annotationId: WLswBbPKyCYEuab6
+  title: Spoor- en tramwegkaart van Nederland (1904)
+  sourceUrl: https://www.nicospilt.com/index_spoorkaarten.htm
+  sourceTitle: Langs de rails
 title: Spoorlijn Nijmegen-Amersfoort
 ---
 

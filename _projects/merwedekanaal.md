@@ -1,6 +1,9 @@
 ---
 allmaps:
   annotationId: gdwFqCxmNPKe91SH
+  title: Kaart van het kanaal van Amsterdam naar de Merwede (1895)
+  sourceUrl: https://puc.overheid.nl/rijkswaterstaat/doc/PUC_60585_31/
+  sourceTitle: Rijkswaterstaat Rapportendatabank
 title: Merwedekanaal
 abstract: |
   In het Gedenkboek dat het Koninklijk Instituut van Ingenieurs in 1897 uitbracht ter gelegenheid van het 50-jarig bestaan, werd gememoreerd dat er in Nederland in die vijftig jaar tijd 23 kanalen waren aangelegd. Veruit het langste kanaal – en zeker ook een van de belangrijkste – was het Merwedekanaal. Doel van het kanaal was ‘het verschaffen van een betere scheepvaartgemeenschap’ van Amsterdam naar de Rijn. Het kanaal verbond het IJ met Gorcum en had een lengte van ruim 71 kilometer. Andere getallen: bodembreedte 20 meter, breedte op kanaalpeil 33,20 meterdiepte onder het kanaalpeil 3,1 m. Het bestond uit vier panden, die door schutsluizen werden gescheiden en over het kanaal lagen 34 bruggen. Het kwam na lange discussie tot stand tussen 1881 en 1893. Toen het gereed kwam werd het een ‘kikkersloot’ genoemd.

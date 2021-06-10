@@ -1,6 +1,9 @@
 ---
 allmaps:
   annotationId: rjXP3AFAEJnVi8P3
+  title: Staats Spoorwegen. Brug of Stoomvlotten van Moerdijk naar Willemsdorp (1867)
+  sourceUrl: https://beeldbank.regionaalarchiefdordrecht.nl/search/detail/id/281282C791A454411F4902233031DD3E/showbrowse
+  sourceTitle: Regionaal Archief Dordrecht
 title: Spoorlijn Rotterdam&#8209;Breda
 abstract: |
   In 1839 kwam de eerste spoorlijn van Nederland tot stand tussen Amsterdam en Haarlem. In de daaropvolgende jaren werd de lijn naar Rotterdam verlengd. Ook tussen Amsterdam en Arnhem kwam een spoorweg te liggen. Daar bleef het lange tijd bij. Discussies en plannen bij de vleet, maar het kwam maar niet tot een spoorwegnet. De obstakels waren daarvoor te groot. Enerzijds financieel: het vervoer over water vormde veel meer dan in andere landen, een geduchte concurrent. Ten tweede lagen er wel heel wat grote barrières. Zelfs wie nu van Rotterdam naar Breda rijdt zal onder de indruk raken van al die enorme bruggen. Nadat het besluit toot staatsaanleg van spoorwegen in 1860 bij wet was geregeld, ging het hard. In tien jaar tijd kwamen overal in Nederland grote bruggen over de rivieren te liggen. Bij Rotterdam drong de spoorweg vanaf de Maasbruggen direct het centrum in. Dwars door de stad lag een eeuw lang het Luchtspoor. Het getuigde ervan hoeveel het waard was om de spoorwegen aan te leggen en de steden onderling sterk te verbinden.

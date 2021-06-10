@@ -1,6 +1,9 @@
 ---
 allmaps:
   annotationId: 84iFEdzE2ssV7qXx
+  title: Verlegging van de Uitmonding der rivier de Maas (1909)
+  sourceUrl: http://resolver.tudelft.nl/uuid:86278c2e-b165-4d7e-a402-d17e2c16d356
+  sourceTitle: TU Delft Library
 title: De Scheiding van Maas en Waal
 abstract: |
   De scheiding van Maas en Waal was een complex project dat een onderdeel vormde van een nog groter project in de negentiende eeuw: de rivierverbetering. Na lange discussies over beste aanpak, werd in de jaren 1851 en 1861 een plan opgesteld. Doel was om de grote rivieren Maas en de Rijn (Waal) een eigen monding te geven in zee. Dit onderdeel wordt ook wel de ‘verlegging van de Maasmond’ genoemd. De uitmonding van de rivier werd verlegd naar de Amer. Hiertoe waren de volgende werken noodzakelijk:

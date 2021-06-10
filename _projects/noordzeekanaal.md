@@ -1,7 +1,7 @@
 ---
 allmaps:
   annotationId: rqv87MqKRuqiTt5m
-  title: "Kaart van het Noordzee-kanaal met omliggende gemeenten. Schaal 1:50.000. Oriëntatie: noord boven."
+  title: "Kaart van het Noordzee-kanaal met omliggende gemeenten (1907)"
   sourceUrl: https://archief.amsterdam/beeldbank/detail/fef8badd-a957-380c-ea61-1600e7da1051
   sourceTitle: Stadsarchief Amsterdam
 title: Noordzeekanaal
