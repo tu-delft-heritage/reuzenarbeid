@@ -53,6 +53,10 @@ blockquote {
   font-style: italic;
 }
 
+.map-title {
+  font-style: italic;
+}
+
 table {
   width: 100%;
   margin-bottom: 1.4rem;
@@ -244,8 +248,10 @@ header, main, footer {
   margin-left: 10px;
 }
 
-.page-controls a {
+.page-controls a, .page-controls a:visited {
   border: none;
+  text-decoration: none;
+  color: var(--black);
 }
 
 .page-controls li {
