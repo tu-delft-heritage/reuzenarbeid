@@ -282,3 +282,9 @@ header, main, footer {
   }
 }
 
+.zoom-controls-bottom-right .ol-zoom {
+  top: auto;
+  bottom: .5em;
+  left: auto;
+  right: .5em;
+}
