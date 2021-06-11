@@ -43,6 +43,31 @@ p, ul, .figure {
   padding-right: 0;
 }
 
+.arrow {
+  padding: 0;
+  margin: 0.25em 0;
+  color: var(--red);
+  font-weight: bold;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 .abstract {
   color: var(--red);
   font-style: italic;
@@ -119,7 +144,7 @@ h1 {
   background-size: 120px;
 }
 
-h2 {
+h2, .arrow {
   font-size: 300%;
 }
 
@@ -277,7 +302,7 @@ header, main, footer {
     line-height: 1.8;
   }
 
-  h2 {
+  h2, .arrow {
     font-size: 200%;
     background-size: 65px;
     line-height: 1.8;
