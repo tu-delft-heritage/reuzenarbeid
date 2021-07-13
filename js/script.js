@@ -1,9 +1,9 @@
 /* global CustomEvent, IntersectionObserver, fetch,
   ol, tileUrl */
 
-import { parse as parseAnnotation } from 'https://cdn.skypack.dev/@allmaps/annotation'
-import { createTransformer, toWorld } from 'https://cdn.skypack.dev/@allmaps/transform'
-import { WarpedMapLayer } from 'https://cdn.skypack.dev/@allmaps/layers'
+import { parse as parseAnnotation } from 'https://cdn.skypack.dev/pin/@allmaps/annotation@v1.0.0-alpha.15-nhN4ZBxRUH4KYyv6L9dB/mode=imports,min/optimized/@allmaps/annotation.js'
+import { createTransformer, toWorld } from 'https://cdn.skypack.dev/pin/@allmaps/transform@v1.0.0-alpha.5-Z5bZ7dJeiVCrRJbU68Af/mode=imports,min/optimized/@allmaps/transform.js'
+import { WarpedMapLayer } from 'https://cdn.skypack.dev/pin/@allmaps/layers@v1.0.0-alpha.12-mr4PMbkXaX3lQvxHlB1C/mode=imports,min/optimized/@allmaps/layers.js'
 
 const animateDuration = 2000
 
