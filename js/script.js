@@ -1,6 +1,9 @@
 /* global CustomEvent, IntersectionObserver, fetch,
-  ol, annotation, transform, allmapsLayers,
-  tileUrl */
+  ol, tileUrl */
+
+import { parse as parseAnnotation } from 'https://cdn.skypack.dev/@allmaps/annotation'
+import { createTransformer, toWorld } from 'https://cdn.skypack.dev/@allmaps/transform'
+import { WarpedMapLayer } from 'https://cdn.skypack.dev/@allmaps/layers'
 
 const animateDuration = 2000
 
@@ -62,7 +65,7 @@ function removeWarpedMapLayer () {
 }
 
 async function loadAndParseAnnotation (annotationUrl) {
-  const maps = annotation.parse(await fetchJSON(annotationUrl))
+  const maps = parseAnnotation(await fetchJSON(annotationUrl))
   return maps
 }
 
@@ -107,9 +110,9 @@ async function animateToMapExtent (maps) {
     source: new ol.source.Vector()
   }
 
-  const transformArgs = transform.createTransformer(firstMap.gcps)
+  const transformArgs = createTransformer(firstMap.gcps)
   const polygon = firstMap.pixelMask
-    .map((point) => transform.toWorld(transformArgs, point))
+    .map((point) => toWorld(transformArgs, point))
 
   const geoMask = {
     type: 'Polygon',
@@ -133,7 +136,7 @@ async function animateToMapExtent (maps) {
 
   window.setTimeout(() => {
     vectorLayer.setVisible(false)
-    warpedMapLayer = new allmapsLayers.WarpedMapLayer(options)
+    warpedMapLayer = new WarpedMapLayer(options)
     map.addLayer(warpedMapLayer)
   }, animateDuration)
 }
