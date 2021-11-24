@@ -3,12 +3,7 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://dlc.services/iiif-resource/7/string1string2string3/reuzenarbeid/TRG-9301-B-01",
     "@type": "sc:Manifest",
-    "metadata": [
-      {
-        "label": "DLCS Base url",
-        "value": "{{ site.image_base_url }}"
-      }
-    ],
+{% include json-metadata.html id="TRG-9301-B-01" %}
     "sequences": [
       {
         "@id": "https://dlc.services/iiif-query/7/?sequence=n1&manifest=s1&canvas=n2&s1=reuzenarbeid&n1=",

@@ -1,0 +1,18 @@
+    {% assign items = site.data.metadata | where: "id", include.id %}{% for item in items %}"label": "{{ item.id }}",
+    "metadata": [
+    {
+    "label": "Fotograven",
+    "value": "{% for project in item.projects %}{{ project.photographers }}{% endfor %}"
+    }
+    ],
+    "structures": [
+        {% for project in item.projects %}{
+        "@id": "https://dlc.services/iiif-resource/7/string1string2string3/reuzenarbeid/range/{{ project.canvas }}",
+        "@type": "sc:Range",
+        "label": "{{ project.project }}",
+        "canvases": [
+            "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=reuzenarbeid&n1=&n2=60"
+        ],
+        "within": ""
+        },{% endfor %}
+    ],{% endfor %}

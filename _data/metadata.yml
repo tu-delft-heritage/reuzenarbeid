@@ -1,4 +1,5 @@
-- id: TRG-9105-B-04
+- 
+  id: TRG-9105-B-04
   oclc:
   projects:
   -
@@ -15,21 +16,23 @@
     project: Koloniesluis
     photographers: Friedrich Julius von Kolkow
     canvas: 13
-    year: 1882
+    year: [1882]
   -
     project: Zijkanaal naar de Maas. Sluis No. 1 te Meijel
     photographers:
     canvas: 19
-    year: 1884
-- id: TRG-9301-A-01
+    year: [1884]
+- 
+  id: TRG-9301-A-01
   oclc:
   projects:
   -
     project: Verlegging uitmonding Maas
     photographers: Arnoud Pistoor & Zn.
     canvas: 0
-    year: 1904
-- id: TRG-9301-A-02
+    year: [1904]
+- 
+  id: TRG-9301-A-02
   oclc:
   projects: 
   -
@@ -41,15 +44,16 @@
     project: Gemeente gasfabriek Rotterdam
     photographers: Franz Friedrich Anton Albert von Pöppinghausen
     canvas: 4
-    year: 1884
-- id: TRG-9301-B-01
+    year: [1884]
+- 
+  id: TRG-9301-B-01
   oclc: 
   projects: 
   -
     project: Aanleg van rijswerken tussen de Steenenhoeksche-kanaalsluis en de Giessendamsche plaat
     photographers: 
     canvas: 0
-    year: 1873
+    year: [1873]
   - 
     project: Beneden Merwede
     photographers: 
@@ -70,15 +74,17 @@
     photographers: Pieter Oosterhuis
     canvas: 22
     year: 
-- id: TRG-9301-B-02
+- 
+  id: TRG-9301-B-02
   oclc: 
   project: 
   - 
     project: Herstelling Schutsluis te Nieuwesluis
     photographers: G. A. Sonstral
     range: 0
-    year: 1910
-- id: TRG-9301-C-01
+    year: [1910]
+- 
+  id: TRG-9301-C-01
   oclc: 
   project: 
   -
@@ -100,32 +106,32 @@
     project: Brug over Merwede
     photographers: Johann Georg Hameter
     canvas: 9
-    year: [1884 1885]
+    year: [1884, 1885]
   -
     project: Spoorwegbrug over het Noordzeekanaal nabij Zaandam
     photographers: 
     canvas: 15
-    year: 1875
+    year: [1875]
   -
     project: Spoorwegbrug tegenover de Oosterdoksluizen te Amsterdam
     photographers: 
     canvas: 16
-    year: 1875
+    year: [1875]
   -
     project: Brug in den Spoorweg over de Maas
     photographers: Johann Georg Hameter
     canvas: 18
-    year: 1877
+    year: [1877]
   -
     project: Locomotievenloods en werkplaats te Fijenoord
     photographers: Johann Georg Hameter
     canvas: 19
-    year: 1877
+    year: [1877]
   -
     project: Brug over de Koningshaven te Rotterdam (Fijenoord)
     photographers: Johann Georg Hameter
     canvas: 21
-    year: 1876
+    year: [1876]
   -
     project: Willemsbrug over de Maas te Rotterdam
     photographers: Johann Georg Hameter
@@ -136,98 +142,104 @@
     photographers:
     canvas: 25
     year:
-- id: TRG-9301-C-02
+- 
+  id: TRG-9301-C-02
   oclc: 
   project:
   -
     project: Buitenhaven te Scheveningen
     photographers: Arnaud Pistoor & Zn.
     canvas: 0
-    year: [1901 1903 1905]
+    year: [1901, 1903, 1905]
   -
     project: Havendammen Vlissingen
     photographers: Anton Lauwrens Preuninger
     canvas: 6
-    year: [1868 1869 1870]
-- id: TRG-9301-F-03
+    year: [1868, 1869, 1870]
+- 
+  id: TRG-9301-F-03
   oclc:
   project:
   -
     project: Spoorwegbrug over de Waal beneden Nymegen
     photographers: Gustav Overbeck
     canvas: 0
-    year: [1875 1877]
-- id: TRG-9301-F-05
+    year: [1875, 1877]
+- 
+  id: TRG-9301-F-05
   oclc:
   project: 
     project: Spoorweg-Brug over het Hollandschdiep bij Moerdijk
     photographers:
     canvas: 0
-    year: 1871
-- id: TRG-9301-K-01
+    year: [1871]
+- 
+  id: TRG-9301-K-01
   oclc: 
   project:
   -
     project: Verbetering kanaal Gent naar Terneuzen
     photographers: Sytze Reinder Elzinga
     canvas: 0
-    year: [1906 1907 1908 1909 1910]
-- id: TRG-9301-M-04
+    year: [1906, 1907, 1908, 1909, 1910]
+- 
+  id: TRG-9301-M-04
   oclc:
   project:
   -
     project: Oostelijke waaijerdeur der Korenbrugsluis te Gorichem
     photographers:
     canvas: 0
-    year: 1871
+    year: [1871]
   -
     project: Nieuwe Schutsluis te Zwartsluis
     photographers: Deutmann
     canvas: 1
-    year: [1877 1878]
+    year: [1877, 1878]
   -
     project: Schutsluis Willem I
     photographers: 
     canvas: 7
-    year: [1865 1866 1867 1868]
-- id: TRG-9301-P-02
+    year: [1865, 1866, 1867, 1868]
+- 
+  id: TRG-9301-P-02
   oclc:
   projects:
   -
     project: Verbetering van de verbinding van haven en Oude Vest te Leiden
     photographers: Henri de Louw
     canvas: 0
-    year: [1894 1865]
+    year: [1894, 1865]
   -
     project: Wilhelminakanaal. Vaste boogbrug in gewapend beton nabij de Goorstraat te Oosterhout
     photographers: Arnaud Pistoor & Zn.
     canvas: 3
-    year: [1910 1911]
+    year: [1910, 1911]
   -
     project: Brug aan de voormalige Rotterdamsche Poort te Delft
     photographers: Henri de Louw
     canvas: 5
-    year: [1892 1893 1894]
+    year: [1892, 1893, 1894]
   -
     project: Keersluis en brug bij Rijnoever aan den Rijksweg bij Leiden
     photographers: Henri de Louw
     canvas: 7
-    year: [1889 1890 1893]
+    year: [1889, 1890, 1893]
   -
     project: De Hoornbrug
     photographers: Henri de Louw
     canvas: 11
-    year: [1891 1892 1894]
+    year: [1891, 1892, 1894]
   -
     project: Geestbrug
     photographers: Henri de Louw
     canvas: 14
-    year: 1895
+    year: [1895]
   -
     project: Nieuwe tolbrug en 't huis te Burghvliet
     photographers: Henri de Louw
     canvas: 15
-    year: 1892
+    year: [1892]
   -
     project: Bouw schutsluis en ophaalbrug te Leidschendam
     photographers: Henri de Louw
@@ -237,46 +249,49 @@
     project: Oostpoort te Delft
     photographers: Henri de Louw
     canvas: 20
-    year: [1891 1895]
+    year: [1891, 1895]
   -
     project: Afdamming van het Sloe ten tijde van hoog water
     photographers: Anton Lauwrens Preuninger
     canvas: 22
-    year: 1871 
-- id: TRG-9301-T-02
+    year: [1871]
+- 
+  id: TRG-9301-T-02
   oclc:
   projects:
   -
     project: Brug over den Rijn nabij Arnhem
-    photographers: [Julius Berger Theodor Creifelds]
+    photographers: Julius Berger, Theodor Creifelds
     canvas: 0
-    year: [1876 1877 1878 1879]
+    year: [1876, 1877, 1878, 1879]
   -
     project: Haltegebouw te Oosterbeek
     photographers: Theodor Creifelds
     canvas: 10
-    year: 1879
-- id: TRG-9302-A-01
+    year: [1879]
+- 
+  id: TRG-9302-A-01
   oclc:
   projects:
   -
     project: Verbetering van het kanaal van Gent naar Ter Neuzen
     photographers: Sytze Reinder Elzinga
     canvas: 0
-    year: [1904 1905 1906]
+    year: [1904, 1905, 1906]
   -
     project: Schutsluis, draaibrug en kanaalwerken Sas-van-Gent
     photographers: Sytze Reinder Elzinga
     canvas: 
-    year: [1902 1903 1904 1905 1906 1907 1908 1906]
-- id: TRG-9302-F-04
+    year: [1902, 1903, 1904, 1905, 1906, 1907, 1908, 1906]
+- 
+  id: TRG-9302-F-04
   oclc:
   projects:
   -
     project: Brug bij Bommel
     photographers: Pieter Oosterhuis
     canvas: 0
-    year: [1866 1868 1869 1870]
+    year: [1866, 1868, 1869, 1870]
   -
     project: Brug Venlo
     photographers:
@@ -291,7 +306,7 @@
     project: Brug over de Oude Maas bij Barendrecht
     photographers: Johann Georg Hameter
     canvas: 21
-    year: [1887 1888]
+    year: [1887, 1888]
   -
     project: Doorgangen onder het Station in het Openhavenfront te Amsterdam
     photographers:
@@ -302,43 +317,46 @@
     photographers:
     canvas: 26
     year:
-- id: TRG-9302-H-01
+- 
+  id: TRG-9302-H-01
   oclc:
   projects:
   -
     project: Kanaalgedeelte tusschen den Zeijlweg onder Maarsen en de Schutsluis bewesten Utrecht
     photographers: Pieter Oosterhuis
     canvas: 0
-    year: [1890 1891 1892]
+    year: [1890, 1891, 1892]
   -
     project: Kunstwerken en een gedeelte kanaal bij den Leidschen Rijn
     photographers: Pieter Oosterhuis
     canvas: 9
-    year: [1887 1888]
+    year: [1887, 1888]
   -
     project: Schutsluis bij Vreeswijk
     photographers: Pieter Oosterhuis
     canvas: 13
-    year: [1883 1884 1885 1888]
-- id: TRG-9302-M-01
+    year: [1883, 1884, 1885, 1888]
+- 
+  id: TRG-9302-M-01
   oclc:
   projects:
   -
     project: Kanaalgedeelte Schotdeuren - Gorichem
     photographers: Johann Georg Hameter
     canvas: 24
-    year: [1888 1889 1890]
+    year: [1888, 1889, 1890]
   -
     project: Schutsluis te Vianen
     photographers: Pieter Oosterhuis
     canvas: 0
-    year: [1884 1885 1886]
+    year: [1884, 1885, 1886]
   -
     project: Verruiming en gedeeltelijke omlegging van het Zederikkanaal
     photographers: Pieter Oosterhuis
     canvas: 12
-    year: [1885 1886 1887 1888]
-- id: TRG-9302-T-02
+    year: [1885, 1886, 1887, 1888]
+- 
+  id: TRG-9302-T-02
   oclc:
   projects:
   -
@@ -350,13 +368,14 @@
     project: Drentsche hoofdvaart
     photographers: Friedrich Julius von Kolkow
     canvas: 2
-    year: [1879 1880]
+    year: [1879, 1880]
   -
     project: Kolonie Veenhuizen
     photographers: Friedrich Julius von Kolkow
     canvas: 14
-    year: [1878 1879 1881]
-- id: TRG-9302-Z-01
+    year: [1878, 1879, 1881]
+- 
+  id: TRG-9302-Z-01
   oclc:
   projects:
   -
@@ -403,7 +422,7 @@
     project: Brug over de Oude Maas bij Barendrecht
     photographers: Johann Georg Hameter
     canvas: 13
-    year: [1887 1888]
+    year: [1887, 1888]
   -
     project: Brug over Rijn nabij Rhenen
     photographers: Julius Berger Theodor Creifelds
@@ -414,71 +433,76 @@
     photographers: Gustav Overbeck
     canvas: 16
     year: 1879
-- id: TRG-9302-F-02
+- 
+  id: TRG-9302-F-02
   oclc:
   projects:
   -
     project: Brug over de Oude Maas te Dordrecht
     photographers: Julius Berger
     canvas: 0
-    year: [1866 1867 1868 1871 1872 1873]
+    year: [1866, 1867, 1868, 1871, 1872, 1873]
   -
     project: Draaibrug over het kanaal van Veere
     photographers:
     canvas: 8
-    year: [1873 1874]
+    year: [1873, 1874]
   -
     project: Station Dordrecht
     photographers: Julius Berger
     canvas: 13
     year: [1872]
-- id: TRG-9405-R-03
+- 
+  id: TRG-9405-R-03
   oclc:
   projects:
   -
     project: Boomshoofd te Delfzijl
     photographers: Friedrich Julius von Kolkow
     canvas: 0
-    year: 1879
+    year: [1879]
   -
     project: Keersluis te Zwolle
     photographers: Deutmann
     canvas: 2
-    year: 1878
+    year: [1878]
   -
     project: Staatsspoorweg te Amsterdam. Viaduct langs de Houttuinen
     photographers: Pieter Oosterhuis
     canvas: 4
-    year: 1872
+    year: [1872]
   -
     project: Schutsluis te Arkel
     photographers:
     canvas: 5
-    year: 1879
-- id: TRG-9410-B-05
+    year: [1879]
+- 
+  id: TRG-9410-B-05
   oclc:
   projects:
   -
     project: Brug te Kuilenburg
     photographers:
     canvas: 0
-    year: [1865 1866 1867 1868]
-- id: TRG-9410-N-02
+    year: [1865, 1866, 1867, 1868]
+- 
+  id: TRG-9410-N-02
   oclc:
   projects:
   -
     project: Lemmer Sluis en Dijkswerken
     photographers: Fidel Carl Albert Greiner 
     canvas: 0
-    year: [1887 1888]
-- id: TRK-9105-G-08
+    year: [1887, 1888]
+- 
+  id: TRK-9105-G-08
   oclc:
   projects:
   -
     project: Franz-Josephs-Brücke über die Moldau zu Prag
     photographers: František Fridrich
     canvas: 0
-    year: [1867 1868]
+    year: [1867, 1868]
   -
     project: Het droogdok te Middelburg
     photographers: C. W. Bauer?
@@ -488,17 +512,17 @@
     project: Zwaanspreng bij Apeldoorn
     photographers:
     canvas: 12
-    year: 1868
+    year: [1868]
   -
     project: Oosterhuizensche Spreng
     photographers:
     canvas: 13
-    year: 1868
+    year: [1868]
   -
     project: Velduizer Spreng
     photographers: Pieter Oosterhuis
     canvas: 14
-    year: 1869
+    year: [1869]
   -
     project: Bruggen Rotterdam
     photographers: Erckens
@@ -513,32 +537,33 @@
     project: Noordzeekanaal Velsen
     photographers: Pieter Oosterhuis
     canvas: 21
-    year: [1869 1870]
+    year: [1869, 1870]
   -
     project: Bouw afsluitdijk in het IJ (Oranjesluizen)
     photographers: Pieter Oosterhuis
     canvas: 37
-    year: [1868 1870]
-- id: TRK-9105-H-01
+    year: [1868, 1870]
+- 
+  id: TRK-9105-H-01
   oclc:
   projects:
   -
     project: Binnen Rotte
     photographers: Julius Berger
     canvas: 0
-    year: [1870 1871 1873 1874]
+    year: [1870, 1871, 1873, 1874]
   -
     project: Oude Haven
     photographers: Julius Berger
     canvas: 3
-    year: 1871
+    year: [1871]
   -
     project: Havenwerken te Feijenoord
     photographers: Johann Georg Hameter
     canvas: 7
-    year: 1876
+    year: [1876]
   -
     project: Schutsluis Willem II
     photographers:
     canvas: 9
-    year: [1864 1865]
+    year: [1864, 1865]
