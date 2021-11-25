@@ -25,7 +25,7 @@
     year: [1884]
 - 
   id: TRG-9301-A-01
-  oclc:
+  oclc: 1237339284
   First image: 42
   projects:
   -
@@ -194,7 +194,7 @@
     year: [1906, 1907, 1908, 1909, 1910]
 - 
   id: TRG-9301-M-04
-  oclc:
+  oclc: 1237635910
   First image: 179
   project:
   -
@@ -284,7 +284,7 @@
     year: [1879]
 - 
   id: TRG-9302-A-01
-  oclc:
+  oclc: 1237637624
   First image: 230
   projects:
   -
@@ -299,7 +299,7 @@
     year: [1902, 1903, 1904, 1905, 1906, 1907, 1908, 1906]
 - 
   id: TRG-9302-F-04
-  oclc:
+  oclc: 1237802179
   First image: 266
   projects:
   -
@@ -334,7 +334,7 @@
     year:
 - 
   id: TRG-9302-H-01
-  oclc:
+  oclc: 1237640632
   First image: 298
   projects:
   -
@@ -354,7 +354,7 @@
     year: [1883, 1884, 1885, 1888]
 - 
   id: TRG-9302-M-01
-  oclc:
+  oclc: [1237803161, 1237803643]
   First image: 323
   projects:
   -
@@ -374,7 +374,7 @@
     year: [1885, 1886, 1887, 1888]
 - 
   id: TRG-9302-T-02
-  oclc:
+  oclc: 841361495
   First image: 351
   projects:
   -
@@ -454,7 +454,7 @@
     year: 1879
 - 
   id: TRG-9401-F-02
-  oclc:
+  oclc: 841361502
   First image: 395
   projects:
   -
@@ -474,7 +474,7 @@
     year: [1872]
 - 
   id: TRG-9405-R-03
-  oclc:
+  oclc: [841361501, 841731801, 841731797, 841732255]
   First image: 411
   projects:
   -
@@ -499,7 +499,7 @@
     year: [1879]
 - 
   id: TRG-9410-B-05
-  oclc:
+  oclc: 905855596
   First image: 0
   projects:
   -
@@ -509,7 +509,7 @@
     year: [1865, 1866, 1867, 1868]
 - 
   id: TRG-9410-N-02
-  oclc:
+  oclc: 840510196
   First image: 13
   projects:
   -
@@ -519,7 +519,7 @@
     year: [1887, 1888]
 - 
   id: TRK-9105-G-08
-  oclc:
+  oclc: [841362051, 841362049 ]
   First image: 420
   projects:
   -
@@ -569,7 +569,7 @@
     year: [1868, 1870]
 - 
   id: TRK-9105-H-01
-  oclc:
+  oclc: 841361497
   First image: 460
   projects:
   -
