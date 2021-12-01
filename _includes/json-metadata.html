@@ -1,8 +1,24 @@
     {% assign items = site.data.metadata | where: "id", include.id %}{% for item in items %}"label": "{{ item.id }}",
     "metadata": [
     {
-    "label": "Fotograven",
-    "value": "{% for project in item.projects %}{{ project.photographers }}{% endfor %}"
+        "label": "Photographers",
+        "value": [
+            {% for project in item.projects %}{% if project.photographers != nil %}{% if forloop.last %}"{{ project.photographers }}"{% else %}"{{ project.photographers }}", {% endif %}{% endif %}{% endfor %}
+            ]
+    },
+    {
+        "label": "OCLC number",
+        "value": "{{ item.oclc }}"
+    },
+    {
+        "label": "Collection",
+        "value": "TU Delft Library, Trésor"
+    },
+    {
+        "label": "Projects",
+        "value": [
+            {% for project in item.projects %}{% if forloop.last %}"{{ project.project }}"{% else %}"{{ project.project }}",{% endif %}{% endfor %}        
+        ]
     }
     ],
     "structures": [
