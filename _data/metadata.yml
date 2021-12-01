@@ -1,7 +1,7 @@
 - 
   id: TRG-9105-B-04
   oclc: n/a
-  First image: 21
+  first-canvas: 21
   projects:
   -
     project: Kolonievaart
@@ -26,7 +26,7 @@
 - 
   id: TRG-9301-A-01
   oclc: 1237339284
-  First image: 42
+  first-canvas: 42
   projects:
   -
     project: Verlegging uitmonding Maas
@@ -36,7 +36,7 @@
 - 
   id: TRG-9301-A-02
   oclc:
-  First image: 48
+  first-canvas: 48
   projects: 
   -
     project: Cellulaire gevangenis te Breda
@@ -51,7 +51,7 @@
 - 
   id: TRG-9301-B-01
   oclc: n/a
-  First image: 60
+  first-canvas: 60
   projects: 
   -
     project: Aanleg van rijswerken tussen de Steenenhoeksche-kanaalsluis en de Giessendamsche plaat
@@ -81,7 +81,7 @@
 - 
   id: TRG-9301-B-02
   oclc: 
-  First image: 84
+  first-canvas: 84
   project: 
   - 
     project: Herstelling Schutsluis te Nieuwesluis
@@ -91,7 +91,7 @@
 - 
   id: TRG-9301-C-01
   oclc: 
-  First image: 88
+  first-canvas: 88
   project: 
   -
     project: Kanaal van Neuzen
@@ -151,7 +151,7 @@
 - 
   id: TRG-9301-C-02
   oclc: 
-  First image: 121
+  first-canvas: 121
   project:
   -
     project: Buitenhaven te Scheveningen
@@ -166,7 +166,7 @@
 - 
   id: TRG-9301-F-03
   oclc:
-  First image: 143
+  first-canvas: 143
   project:
   -
     project: Spoorwegbrug over de Waal beneden Nymegen
@@ -176,7 +176,7 @@
 - 
   id: TRG-9301-F-05
   oclc:
-  First image: 146
+  first-canvas: 146
   project: 
     project: Spoorweg-Brug over het Hollandschdiep bij Moerdijk
     photographers:
@@ -185,7 +185,7 @@
 - 
   id: TRG-9301-K-01
   oclc: 
-  First image: 160
+  first-canvas: 160
   project:
   -
     project: Verbetering kanaal Gent naar Terneuzen
@@ -195,7 +195,7 @@
 - 
   id: TRG-9301-M-04
   oclc: 1237635910
-  First image: 179
+  first-canvas: 179
   project:
   -
     project: Oostelijke waaijerdeur der Korenbrugsluis te Gorichem
@@ -215,7 +215,7 @@
 - 
   id: TRG-9301-P-02
   oclc:
-  First image: 194
+  first-canvas: 194
   projects:
   -
     project: Verbetering van de verbinding van haven en Oude Vest te Leiden
@@ -270,7 +270,7 @@
 - 
   id: TRG-9301-T-02
   oclc:
-  First image: 219
+  first-canvas: 219
   projects:
   -
     project: Brug over den Rijn nabij Arnhem
@@ -285,7 +285,7 @@
 - 
   id: TRG-9302-A-01
   oclc: 1237637624
-  First image: 230
+  first-canvas: 230
   projects:
   -
     project: Verbetering van het kanaal van Gent naar Ter Neuzen
@@ -300,7 +300,7 @@
 - 
   id: TRG-9302-F-04
   oclc: 1237802179
-  First image: 266
+  first-canvas: 266
   projects:
   -
     project: Brug bij Bommel
@@ -335,7 +335,7 @@
 - 
   id: TRG-9302-H-01
   oclc: 1237640632
-  First image: 298
+  first-canvas: 298
   projects:
   -
     project: Kanaalgedeelte tusschen den Zeijlweg onder Maarsen en de Schutsluis bewesten Utrecht
@@ -355,7 +355,7 @@
 - 
   id: TRG-9302-M-01
   oclc: [1237803161, 1237803643]
-  First image: 323
+  first-canvas: 323
   projects:
   -
     project: Kanaalgedeelte Schotdeuren - Gorichem
@@ -375,7 +375,7 @@
 - 
   id: TRG-9302-T-02
   oclc: 841361495
-  First image: 351
+  first-canvas: 351
   projects:
   -
     project: Zuid-Willemsvaart te Maastricht
@@ -395,7 +395,7 @@
 - 
   id: TRG-9302-Z-01
   oclc:
-  First image: 377
+  first-canvas: 377
   projects:
   -
     project: vOosthavendam te Veere
@@ -455,7 +455,7 @@
 - 
   id: TRG-9401-F-02
   oclc: 841361502
-  First image: 395
+  first-canvas: 395
   projects:
   -
     project: Brug over de Oude Maas te Dordrecht
@@ -475,7 +475,7 @@
 - 
   id: TRG-9405-R-03
   oclc: [841361501, 841731801, 841731797, 841732255]
-  First image: 411
+  first-canvas: 411
   projects:
   -
     project: Boomshoofd te Delfzijl
@@ -500,7 +500,7 @@
 - 
   id: TRG-9410-B-05
   oclc: 905855596
-  First image: 0
+  first-canvas: 0
   projects:
   -
     project: Brug te Kuilenburg
@@ -510,7 +510,7 @@
 - 
   id: TRG-9410-N-02
   oclc: 840510196
-  First image: 13
+  first-canvas: 13
   projects:
   -
     project: Lemmer Sluis en Dijkswerken
@@ -520,7 +520,7 @@
 - 
   id: TRK-9105-G-08
   oclc: [841362051, 841362049 ]
-  First image: 420
+  first-canvas: 420
   projects:
   -
     project: Franz-Josephs-Brücke über die Moldau zu Prag
@@ -570,7 +570,7 @@
 - 
   id: TRK-9105-H-01
   oclc: 841361497
-  First image: 460
+  first-canvas: 460
   projects:
   -
     project: Binnen Rotte

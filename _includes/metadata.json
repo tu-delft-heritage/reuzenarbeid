@@ -1,0 +1,57 @@
+    {% assign items = site.data.metadata | where: "id", include.id %}{% for item in items %}"label": "{{ item.id }}",
+    "metadata": [
+    {
+        "label": "Call number",
+        "value": "{{ item.id }}"
+    },
+    {
+        "label": "OCLC number",
+        "value": "{{ item.oclc }}"
+    },
+    {
+        "label": "Collection",
+        "value": "TU Delft Library, Trésor"
+    },
+    {
+        "label": "Projects",
+        "value": [
+            {% for project in item.projects %}{% if forloop.last %}"{{ project.project }}"{% else %}"{{ project.project }}",
+            {% endif %}{% endfor %}        
+        ]
+    },
+    {
+        "label": "Period",
+        "value": "{% assign period = item.projects | map: "year" | compact | uniq | sort_natural %}{% if period.size < 2 and period.size != 0 %}{{period}}{% elsif period.size == 0 %}n/a{% else %}{{ period.first }}-{{ period.last }}{% endif %}"
+    },
+    {
+        "label": "Photographers",
+        "value": [
+            {% for project in item.projects %}{% if project.photographers %}{% if forloop.last %}"{{ project.photographers }}"{% else %}"{{ project.photographers }}",
+            {% endif %}{% endif %}{% endfor %}
+        ]
+    },
+    {
+        "label": "More information",
+        "value": "<a href=\"https://allmaps.org/reuzenarbeid/\">Reuzenarbeid</a>"
+    }
+    ],
+    "structures": [
+        {% for project in item.projects %}{% if forloop.last %}{
+        "@id": "https://dlc.services/iiif-resource/7/string1string2string3/reuzenarbeid/{{ item.id }}/range/{{ project.canvas }}",
+        "@type": "sc:Range",
+        "label": "{{ forloop.index }}. {{ project.project }}",
+        "canvases": [
+            "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=reuzenarbeid&n1=&n2={{ item.first-canvas | plus: project.canvas }}"
+        ],
+        "within": ""
+        }{% else %}{
+        "@id": "https://dlc.services/iiif-resource/7/string1string2string3/reuzenarbeid/{{ item.id }}/range/{{ project.canvas }}",
+        "@type": "sc:Range",
+        "label": "{{ forloop.index }}. {{ project.project }}",
+        "canvases": [
+            "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=reuzenarbeid&n1=&n2={{ item.first-canvas | plus: project.canvas }} "
+        ],
+        "within": ""
+        },
+        {% endif %}{% endfor %}
+    ],{% endfor %}
