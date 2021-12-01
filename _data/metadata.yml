@@ -80,9 +80,9 @@
     year: 
 - 
   id: TRG-9301-B-02
-  oclc: 
+  oclc: n/a
   first-canvas: 84
-  project: 
+  projects: 
   - 
     project: Herstelling Schutsluis te Nieuwesluis
     photographers: G. A. Sonstral
@@ -92,7 +92,7 @@
   id: TRG-9301-C-01
   oclc: 
   first-canvas: 88
-  project: 
+  projects: 
   -
     project: Kanaal van Neuzen
     photographers:
@@ -152,7 +152,7 @@
   id: TRG-9301-C-02
   oclc: 
   first-canvas: 121
-  project:
+  projects:
   -
     project: Buitenhaven te Scheveningen
     photographers: Arnaud Pistoor & Zn.
@@ -167,7 +167,7 @@
   id: TRG-9301-F-03
   oclc:
   first-canvas: 143
-  project:
+  projects:
   -
     project: Spoorwegbrug over de Waal beneden Nymegen
     photographers: Gustav Overbeck
@@ -177,7 +177,8 @@
   id: TRG-9301-F-05
   oclc:
   first-canvas: 146
-  project: 
+  projects: 
+  -
     project: Spoorweg-Brug over het Hollandschdiep bij Moerdijk
     photographers:
     canvas: 0
@@ -186,7 +187,7 @@
   id: TRG-9301-K-01
   oclc: 
   first-canvas: 160
-  project:
+  projects:
   -
     project: Verbetering kanaal Gent naar Terneuzen
     photographers: Sytze Reinder Elzinga
@@ -196,7 +197,7 @@
   id: TRG-9301-M-04
   oclc: 1237635910
   first-canvas: 179
-  project:
+  projects:
   -
     project: Oostelijke waaijerdeur der Korenbrugsluis te Gorichem
     photographers:
