@@ -80,9 +80,9 @@
     year: 
 - 
   id: TRG-9301-B-02
-  oclc: 
+  oclc: n/a
   first-canvas: 84
-  project: 
+  projects: 
   - 
     project: Herstelling Schutsluis te Nieuwesluis
     photographers: G. A. Sonstral
@@ -90,9 +90,9 @@
     year: [1910]
 - 
   id: TRG-9301-C-01
-  oclc: 
+  oclc: n/a
   first-canvas: 88
-  project: 
+  projects: 
   -
     project: Kanaal van Neuzen
     photographers:
@@ -150,9 +150,9 @@
     year:
 - 
   id: TRG-9301-C-02
-  oclc: 
+  oclc: n/a
   first-canvas: 121
-  project:
+  projects:
   -
     project: Buitenhaven te Scheveningen
     photographers: Arnaud Pistoor & Zn.
@@ -165,9 +165,9 @@
     year: [1868, 1869, 1870]
 - 
   id: TRG-9301-F-03
-  oclc:
+  oclc: n/a
   first-canvas: 143
-  project:
+  projects:
   -
     project: Spoorwegbrug over de Waal beneden Nymegen
     photographers: Gustav Overbeck
@@ -175,18 +175,19 @@
     year: [1875, 1877]
 - 
   id: TRG-9301-F-05
-  oclc:
+  oclc: n/a
   first-canvas: 146
-  project: 
+  projects: 
+  -
     project: Spoorweg-Brug over het Hollandschdiep bij Moerdijk
     photographers:
     canvas: 0
     year: [1871]
 - 
   id: TRG-9301-K-01
-  oclc: 
+  oclc: n/a
   first-canvas: 160
-  project:
+  projects:
   -
     project: Verbetering kanaal Gent naar Terneuzen
     photographers: Sytze Reinder Elzinga
@@ -196,7 +197,7 @@
   id: TRG-9301-M-04
   oclc: 1237635910
   first-canvas: 179
-  project:
+  projects:
   -
     project: Oostelijke waaijerdeur der Korenbrugsluis te Gorichem
     photographers:
@@ -214,7 +215,7 @@
     year: [1865, 1866, 1867, 1868]
 - 
   id: TRG-9301-P-02
-  oclc:
+  oclc: n/a
   first-canvas: 194
   projects:
   -
@@ -269,7 +270,7 @@
     year: [1871]
 - 
   id: TRG-9301-T-02
-  oclc:
+  oclc: n/a
   first-canvas: 219
   projects:
   -
@@ -394,7 +395,7 @@
     year: [1878, 1879, 1881]
 - 
   id: TRG-9302-Z-01
-  oclc:
+  oclc: n/a
   first-canvas: 377
   projects:
   -

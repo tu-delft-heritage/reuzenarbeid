@@ -6,7 +6,10 @@
     },
     {
         "label": "OCLC number",
-        "value": "{{ item.oclc }}"
+        "value": [
+            {% for oclc in item.oclc %}{% if forloop.last %}"{{ oclc }}"{% else %}"{{ oclc }}",
+            {% endif %}{% endfor %}
+        ]
     },
     {
         "label": "Collection",
@@ -25,9 +28,8 @@
     },
     {
         "label": "Photographers",
-        "value": [
-            {% for project in item.projects %}{% if project.photographers %}{% if forloop.last %}"{{ project.photographers }}"{% else %}"{{ project.photographers }}",
-            {% endif %}{% endif %}{% endfor %}
+        "value": [{% assign photograph = item.projects | map: "photographers" | compact | uniq %}{% if photograph.size == 0 %}"n/a"{% else %}{% for photo in photograph %}
+            {% if forloop.last %}"{{ photo }}"{% else %}"{{ photo }}",{% endif %}{% endfor %}{% endif %}
         ]
     },
     {
