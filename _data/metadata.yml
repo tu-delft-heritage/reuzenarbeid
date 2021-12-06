@@ -1,6 +1,6 @@
 - 
   id: TRG-9105-B-04
-  oclc: n/a
+  oclc: 
   first-canvas: 21
   projects:
   -
@@ -25,7 +25,7 @@
     year: [1884]
 - 
   id: TRG-9301-A-01
-  oclc: 1237339284
+  oclc: [1237339284]
   first-canvas: 42
   projects:
   -
@@ -35,7 +35,7 @@
     year: [1904]
 - 
   id: TRG-9301-A-02
-  oclc:
+  oclc: 
   first-canvas: 48
   projects: 
   -
@@ -50,7 +50,7 @@
     year: [1884]
 - 
   id: TRG-9301-B-01
-  oclc: n/a
+  oclc: 
   first-canvas: 60
   projects: 
   -
@@ -80,7 +80,7 @@
     year: 
 - 
   id: TRG-9301-B-02
-  oclc: n/a
+  oclc: 
   first-canvas: 84
   projects: 
   - 
@@ -90,7 +90,7 @@
     year: [1910]
 - 
   id: TRG-9301-C-01
-  oclc: n/a
+  oclc: 
   first-canvas: 88
   projects: 
   -
@@ -150,7 +150,7 @@
     year:
 - 
   id: TRG-9301-C-02
-  oclc: n/a
+  oclc: 
   first-canvas: 121
   projects:
   -
@@ -165,7 +165,7 @@
     year: [1868, 1869, 1870]
 - 
   id: TRG-9301-F-03
-  oclc: n/a
+  oclc: 
   first-canvas: 143
   projects:
   -
@@ -175,7 +175,7 @@
     year: [1875, 1877]
 - 
   id: TRG-9301-F-05
-  oclc: n/a
+  oclc: 
   first-canvas: 146
   projects: 
   -
@@ -185,7 +185,7 @@
     year: [1871]
 - 
   id: TRG-9301-K-01
-  oclc: n/a
+  oclc: 
   first-canvas: 160
   projects:
   -
@@ -195,7 +195,7 @@
     year: [1906, 1907, 1908, 1909, 1910]
 - 
   id: TRG-9301-M-04
-  oclc: 1237635910
+  oclc: [1237635910]
   first-canvas: 179
   projects:
   -
@@ -215,7 +215,7 @@
     year: [1865, 1866, 1867, 1868]
 - 
   id: TRG-9301-P-02
-  oclc: n/a
+  oclc: 
   first-canvas: 194
   projects:
   -
@@ -270,7 +270,7 @@
     year: [1871]
 - 
   id: TRG-9301-T-02
-  oclc: n/a
+  oclc: 
   first-canvas: 219
   projects:
   -
@@ -285,7 +285,7 @@
     year: [1879]
 - 
   id: TRG-9302-A-01
-  oclc: 1237637624
+  oclc: [1237637624]
   first-canvas: 230
   projects:
   -
@@ -300,7 +300,7 @@
     year: [1902, 1903, 1904, 1905, 1906, 1907, 1908, 1906]
 - 
   id: TRG-9302-F-04
-  oclc: 1237802179
+  oclc: [1237802179]
   first-canvas: 266
   projects:
   -
@@ -375,7 +375,7 @@
     year: [1885, 1886, 1887, 1888]
 - 
   id: TRG-9302-T-02
-  oclc: 841361495
+  oclc: [841361495]
   first-canvas: 351
   projects:
   -
@@ -395,11 +395,11 @@
     year: [1878, 1879, 1881]
 - 
   id: TRG-9302-Z-01
-  oclc: n/a
+  oclc: 
   first-canvas: 377
   projects:
   -
-    project: vOosthavendam te Veere
+    project: Oosthavendam te Veere
     photographers:
     canvas: 0
     year: 1869
@@ -455,7 +455,7 @@
     year: 1879
 - 
   id: TRG-9401-F-02
-  oclc: 841361502
+  oclc: [841361502]
   first-canvas: 395
   projects:
   -
@@ -500,7 +500,7 @@
     year: [1879]
 - 
   id: TRG-9410-B-05
-  oclc: 905855596
+  oclc: [905855596]
   first-canvas: 0
   projects:
   -
@@ -510,7 +510,7 @@
     year: [1865, 1866, 1867, 1868]
 - 
   id: TRG-9410-N-02
-  oclc: 840510196
+  oclc: [840510196]
   first-canvas: 13
   projects:
   -
@@ -520,7 +520,7 @@
     year: [1887, 1888]
 - 
   id: TRK-9105-G-08
-  oclc: [841362051, 841362049 ]
+  oclc: [841362051, 841362049]
   first-canvas: 420
   projects:
   -
@@ -570,7 +570,7 @@
     year: [1868, 1870]
 - 
   id: TRK-9105-H-01
-  oclc: 841361497
+  oclc: [841361497]
   first-canvas: 460
   projects:
   -
