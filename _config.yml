@@ -1,4 +1,5 @@
 title: Reuzenarbeid
+base_url: https://allmaps.org/reuzenarbeid/
 
 # Preferred map tiles
 # tile_url: https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
