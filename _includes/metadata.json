@@ -1,59 +1,59 @@
-    {% assign items = site.data.metadata | where: "id", include.id %}{% for item in items %}"label": "{{ item.id }}",
-    "metadata": [
+  {% assign items = site.data.metadata | where: "id", include.id %}{% for item in items %}"@id": "{{ site.base_url }}manifests/{{ item.id }}.json",
+  "label": "{{ item.id | replace: "-", " " }}",
+  "metadata": [
     {
-        "label": "Call number",
-        "value": "{{ item.id }}"
+      "label": "Call number",
+      "value": "{{ item.id }}"
     },
     {
-        "label": "OCLC number",
-        "value": [
-            {% for oclc in item.oclc %}{% if forloop.last %}"{{ oclc }}"{% else %}"{{ oclc }}",
-            {% endif %}{% endfor %}
-        ]
+      "label": "OCLC number",
+      "value": {% if item.oclc == nil %}"n/a"{% else %}[{% for oclc in item.oclc %}
+        {% if forloop.last %}"<a href=\"https://tudelft.on.worldcat.org/v2/oclc/{{ oclc }}\">{{ oclc }}</a>"{% else %}"<a href=\"https://tudelft.on.worldcat.org/v2/oclc/{{ oclc }}\">{{ oclc }}</a>",{% endif %}{% endfor %}
+      ]{% endif %}
     },
     {
-        "label": "Collection",
-        "value": "TU Delft Library, Trésor"
+      "label": "Collection",
+      "value": "TU Delft Library, Trésor"
     },
     {
-        "label": "Projects",
-        "value": [
-            {% for project in item.projects %}{% if forloop.last %}"{{ project.project }}"{% else %}"{{ project.project }}",
-            {% endif %}{% endfor %}        
-        ]
+      "label": "Projects",
+      "value": [
+        {% for project in item.projects %}{% if forloop.last %}"{{ project.project }}"{% else %}"{{ project.project }}",
+        {% endif %}{% endfor %}        
+      ]
     },
     {
-        "label": "Period",
-        "value": "{% assign period = item.projects | map: "year" | compact | uniq | sort_natural %}{% if period.size < 2 and period.size != 0 %}{{period}}{% elsif period.size == 0 %}n/a{% else %}{{ period.first }}-{{ period.last }}{% endif %}"
+      "label": "Period",
+      "value": "{% assign period = item.projects | map: "year" | compact | uniq | sort_natural %}{% if period.size < 2 and period.size != 0 %}{{period}}{% elsif period.size == 0 %}n/a{% else %}{{ period.first }}-{{ period.last }}{% endif %}"
     },
     {
-        "label": "Photographers",
-        "value": [{% assign photograph = item.projects | map: "photographers" | compact | uniq %}{% if photograph.size == 0 %}"n/a"{% else %}{% for photo in photograph %}
-            {% if forloop.last %}"{{ photo }}"{% else %}"{{ photo }}",{% endif %}{% endfor %}{% endif %}
-        ]
+      "label": "Photographers",
+      "value": {% assign photographers = item.projects | map: "photographers" | compact | uniq %}{% if photographers.size == 0 %}"n/a"{% else %}[{% for photographer in photographers %}
+        {% if forloop.last %}"{{ photographer }}"{% else %}"{{ photographer }}",{% endif %}{% endfor %}
+      ]{% endif %}
     },
     {
-        "label": "More information",
-        "value": "<a href=\"https://allmaps.org/reuzenarbeid/\">Reuzenarbeid</a>"
+      "label": "More information",
+      "value": "<a href=\"https://allmaps.org/reuzenarbeid/\">Reuzenarbeid</a>"
     }
-    ],
-    "structures": [
-        {% for project in item.projects %}{% if forloop.last %}{
-        "@id": "https://dlc.services/iiif-resource/7/string1string2string3/reuzenarbeid/{{ item.id }}/range/{{ project.canvas }}",
-        "@type": "sc:Range",
-        "label": "{{ forloop.index }}. {{ project.project }}",
-        "canvases": [
-            "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=reuzenarbeid&n1=&n2={{ item.first-canvas | plus: project.canvas }}"
-        ],
-        "within": ""
-        }{% else %}{
-        "@id": "https://dlc.services/iiif-resource/7/string1string2string3/reuzenarbeid/{{ item.id }}/range/{{ project.canvas }}",
-        "@type": "sc:Range",
-        "label": "{{ forloop.index }}. {{ project.project }}",
-        "canvases": [
-            "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=reuzenarbeid&n1=&n2={{ item.first-canvas | plus: project.canvas }} "
-        ],
-        "within": ""
-        },
-        {% endif %}{% endfor %}
-    ],{% endfor %}
+  ],
+  "structures": [
+    {% for project in item.projects %}{% if forloop.last %}{
+      "@id": "https://dlc.services/iiif-resource/7/string1string2string3/reuzenarbeid/{{ item.id }}/range/{{ project.canvas }}",
+      "@type": "sc:Range",
+      "label": "{{ forloop.index }}. {{ project.project }}",
+      "canvases": [
+        "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=reuzenarbeid&n1=&n2={{ item.first-canvas | plus: project.canvas }}"
+      ],
+      "within": ""
+    }{% else %}{
+      "@id": "https://dlc.services/iiif-resource/7/string1string2string3/reuzenarbeid/{{ item.id }}/range/{{ project.canvas }}",
+      "@type": "sc:Range",
+      "label": "{{ forloop.index }}. {{ project.project }}",
+      "canvases": [
+        "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=reuzenarbeid&n1=&n2={{ item.first-canvas | plus: project.canvas }}"
+      ],
+      "within": ""
+    },
+    {% endif %}{% endfor %}
+  ],{% endfor %}
