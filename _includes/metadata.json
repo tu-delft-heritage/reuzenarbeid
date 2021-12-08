@@ -3,7 +3,7 @@
   "metadata": [
     {
       "label": "Call number",
-      "value": "{{ item.id }}"
+      "value": "{{ item.id | replace: "-", " " }}"
     },
     {
       "label": "OCLC number",
