@@ -1,4 +1,4 @@
-  {% assign items = site.data.metadata | where: "id", include.id %}{% for item in items %}"@id": "{{ site.base_url }}manifests/{{ item.id }}.json",
+  {% assign items = site.data.metadata | where: "id", include.id %}{% for item in items %}"@id": "{{ site.base_url }}manifests/tresor/{{ item.id }}.json",
   "label": "{{ item.id | replace: "-", " " }}",
   "metadata": [
     {

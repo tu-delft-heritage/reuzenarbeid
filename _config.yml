@@ -12,7 +12,7 @@ viewer_base_url: http://uv-v4.netlify.app/uv.html#?manifest=
 
 # IIIF Server settings
 image_base_url: https://dlc.services/iiif-img/7/6/
-manifest_base_url: https://dlc.services/iiif-resource/delft/string1string2string3/reuzenarbeid/
+manifest_base_url: https://allmaps.org/reuzenarbeid/manifests/tresor/
 
 # Allmaps
 allmaps_api_base: https://annotations.allmaps.org/manifests/
