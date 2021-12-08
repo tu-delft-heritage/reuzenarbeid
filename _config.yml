@@ -7,8 +7,8 @@ tile_url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/M
 # tile_url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
 
 # Preferred IIIF viewer
-viewer_base_url: http://uv-v4.netlify.app/uv.html#?manifest=
-# viewer_base_url: https://projectmirador.org/embed/?manifest= # Canvas selection impossible
+# viewer_base_url: http://uv-v4.netlify.app/uv.html#?manifest=
+viewer_base_url: https://projectmirador.org/embed/?manifest= # Canvas selection impossible
 
 # IIIF Server settings
 image_base_url: https://dlc.services/iiif-img/7/6/
