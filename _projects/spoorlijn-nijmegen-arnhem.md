@@ -1,9 +1,9 @@
 ---
 allmaps:
   annotationId: Ut45yADUtzsPjWv3
-  title: Spoor- en tramwegkaart van Nederland (1904)
-  sourceUrl: https://www.nicospilt.com/index_spoorkaarten.htm
-  sourceTitle: Langs de rails
+  title: Arnhem (1906)
+  sourceUrl: https://www.gelderlandinbeeld.nl/beeldbank/detail/876c6cc3-df7c-4817-889e-51a4edbf8ff3/media/91b31992-3899-46c4-98a7-c18878867478
+  sourceTitle: Gelderland in beeld
 title: Spoorlijn Nijmegen-Arnhem
 abstract: |
   Volgens de wet van 1860 zouden er tien spoorwegen door de Staat worden aangelegd. Je kunt ze als de belangrijkste verbindingen beschouwen, al zou je dat van lijn B van Harlingen naar Nieuweschans aan de Duitse Grens niet direct zeggen. De aanleg verliep zeer vlot en de roep om nieuwe spoorwegen verstomde niet. In 1873 en 1875 kwamen nog zestien nieuwe spoorwegen tot stand. Een hiervan was de verbinding tussen Nijmegen en Arnhem.
