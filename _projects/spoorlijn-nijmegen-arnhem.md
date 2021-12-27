@@ -1,6 +1,6 @@
 ---
 allmaps:
-  annotationId: WLswBbPKyCYEuab6
+  annotationId: Ut45yADUtzsPjWv3
   title: Spoor- en tramwegkaart van Nederland (1904)
   sourceUrl: https://www.nicospilt.com/index_spoorkaarten.htm
   sourceTitle: Langs de rails
