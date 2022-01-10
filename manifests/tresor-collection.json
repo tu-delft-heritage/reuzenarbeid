@@ -8,11 +8,11 @@
   "description": "Foto's gedigitaliseerd in het kader van Reuzenarbeid",
   "attribution": "TU Delft Library",
   "manifests": [{% for item in site.data.metadata %}{% if forloop.last %}
-    { "@id": "{{ site.manifest_base_url }}{{ item.id }}.json",
+    { "@id": "{{ site.manifest_base_url }}tresor/{{ item.id }}.json",
       "@type": "sc:Manifest",
       "label" : "{{ item.id }}"
     }{% else %}
-    { "@id": "{{ site.manifest_base_url }}{{ item.id }}.json",
+    { "@id": "{{ site.manifest_base_url }}tresor/{{ item.id }}.json",
       "@type": "sc:Manifest",
       "label" : "{{ item.id }}"
     },{% endif %}{% endfor %}
