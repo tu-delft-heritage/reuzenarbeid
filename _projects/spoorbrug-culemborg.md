@@ -28,7 +28,8 @@ Wij meenen iedereen te mogen aanraden, om die groote werkzaamheden te komen bezi
 
 {% include iiif-image.html idno="tresor/TRG-9410-B-05" uuid="6/99fe389b-df68-4ef6-8563-5544ec783ca3" canvas="7" caption="Steiger in de opening van 150 m. (9 augustus 1867)" region="pct:22,23,58,54" %}
 
+{% include iiif-image.html idno="tresor/TRG-9410-B-05" uuid="6/4322031d-90ec-4fb1-8a7d-a5de1cc79dbf" canvas="9" caption="Noordelijk uiteinde van de brug, vanuit de draagwanden gezien. (30 augustus 1868)" region="pct:19,25,60,51" %}
+
 Het waren durfals, die arbeiders. Arbo-wetgeving bestond toen duidelijk nog niet, want zie ze toch eens poseren, staande op de brugbogen. Je moest voor dit werk niet alleen een goede arbeider zijn, maar ook een goede acrobaat. Op het hoogtepunt waren dagelijks ongeveer 300 à 400 mensen werkzaam aan de brug. Dat dit niet zonder gevaar was, blijkt wel uit de sterftecijfers: zeven mensen vonden tijdens de werkzaamheden de dood. Van Diesen hield zijn collega’s op de hoogte van de vorderingen. Zo gaf hij op 12 november 1867 een lezing in het Haagse Diligentia-theater, waarbij hij het werk met behulp van tal van afbeeldingen toelichtte; hij schonk bij die gelegenheid ook drie foto’s van de brug in wording aan het Instituut van Ingenieurs. In 1868 kwam de brug bij Culemborg gereed.
 
-
-{% include iiif-image.html idno="tresor/TRG-9410-B-05" uuid="6/4322031d-90ec-4fb1-8a7d-a5de1cc79dbf" canvas="9" caption="Noordelijk uiteinde van de brug, vanuit de draagwanden gezien. (30 augustus 1868)" region="pct:19,25,60,51" %}
+{% include iiif-image.html idno="museumcollectie/2002.0052.CTG" uuid="18/56077157-6d15-415e-9515-0dd1f36dac31" region="full" canvas=0 caption="Spoorbrug Culemborg. (1868-1883)" %}
