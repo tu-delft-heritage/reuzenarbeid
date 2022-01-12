@@ -20,7 +20,8 @@
             cancelable: false,
             detail: {
               annotationId: this.annotationId,
-              projectId: this.projectId
+              projectId: this.projectId,
+              animateToMapBounds: this.animateToMapBounds
             }
           })
 
@@ -32,6 +33,7 @@
     connectedCallback () {
       this.projectId = this.shadowRoot.host.dataset.projectId
       this.annotationId = this.shadowRoot.host.dataset.annotationId
+      this.animateToMapBounds = !(this.shadowRoot.host.dataset.animateToMapBounds === 'false')
 
       const observer = new IntersectionObserver(this.handleIntersect.bind(this))
 

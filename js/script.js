@@ -98,7 +98,7 @@ function animateToGeoJSON (projectId) {
   })
 }
 
-async function animateToMapExtent (maps) {
+async function showMap (maps, animateToMapBounds = false) {
   const firstMap = maps[0]
 
   const imageUri = firstMap.image.uri
@@ -110,35 +110,37 @@ async function animateToMapExtent (maps) {
     source: new ol.source.Vector()
   }
 
-  const transformArgs = createTransformer(firstMap.gcps)
-  const polygon = firstMap.pixelMask
-    .map((point) => toWorld(transformArgs, point))
+  if (animateToMapBounds) {
+    const transformArgs = createTransformer(firstMap.gcps)
+    const polygon = firstMap.pixelMask
+      .map((point) => toWorld(transformArgs, point))
 
-  const geoMask = {
-    type: 'Polygon',
-    coordinates: [polygon]
+    const geoMask = {
+      type: 'Polygon',
+      coordinates: [polygon]
+    }
+
+    const extent = ol.proj.transformExtent(new ol.source.Vector({
+      features: new ol.format.GeoJSON().readFeatures(geoMask)
+    }).getExtent(), 'EPSG:4326', 'EPSG:3857')
+
+    const view = map.getView()
+    const resolution = view.getResolutionForExtent(extent)
+    const zoom = view.getZoomForResolution(resolution)
+    const center = ol.extent.getCenter(extent)
+
+    view.animate({
+      center,
+      zoom: zoom - 0.1,
+      duration: animateDuration
+    })
   }
-
-  const extent = ol.proj.transformExtent(new ol.source.Vector({
-    features: new ol.format.GeoJSON().readFeatures(geoMask)
-  }).getExtent(), 'EPSG:4326', 'EPSG:3857')
-
-  const view = map.getView()
-  const resolution = view.getResolutionForExtent(extent)
-  const zoom = view.getZoomForResolution(resolution)
-  const center = ol.extent.getCenter(extent)
-
-  view.animate({
-    center,
-    zoom: zoom - 0.1,
-    duration: animateDuration
-  })
 
   window.setTimeout(() => {
     vectorLayer.setVisible(false)
     warpedMapLayer = new WarpedMapLayer(options)
     map.addLayer(warpedMapLayer)
-  }, animateDuration)
+  }, animateToMapBounds ? animateDuration : 0)
 }
 
 const map = new ol.Map({
@@ -175,11 +177,12 @@ window.addEventListener('project-show-map', async (event) => {
 
   const annotationId = event.detail.annotationId
   const projectId = event.detail.projectId
+  const animateToMapBounds = event.detail.animateToMapBounds
 
   if (annotationId && projectId) {
     const annotationUrl = `https://annotations.allmaps.org/images/${annotationId}`
     const maps = await loadAndParseAnnotation(annotationUrl)
-    animateToMapExtent(maps)
+    showMap(maps, animateToMapBounds)
   }
 })
 
