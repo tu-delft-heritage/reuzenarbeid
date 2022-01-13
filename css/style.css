@@ -183,6 +183,7 @@ section a, section a:visited, .link {
   border-color: var(--red);
   border-width: 3px;
   border-bottom-style: solid;
+  display: inline-block;
 }
 
 figure img,

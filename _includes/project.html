@@ -2,7 +2,9 @@
 {% assign project = site.projects | where:'id', path | first %}
 <li class="project">
   <project-component
-  data-project-id="{{ project_id }}" data-annotation-id="{{ project.allmaps.annotationId }}">
+    data-project-id="{{ project_id }}"
+    data-annotation-id="{{ project.allmaps.annotationId }}"
+    data-animate-to-map-bounds="{{ project.allmaps.animateToMapBounds }}">
     <a slot="header" name="{{ project_id }}" id="{{ project_id }}">
       {{ project.title }}
     </a>
