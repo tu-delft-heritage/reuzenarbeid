@@ -11,8 +11,8 @@ tile_url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/M
 viewer_base_url: https://projectmirador.org/embed/?manifest= # Canvas selection impossible
 
 # IIIF Server settings
-image_base_url: https://dlc.services/iiif-img/7/6/
-manifest_base_url: https://allmaps.org/reuzenarbeid/manifests/tresor/
+image_base_url: https://dlc.services/iiif-img/7/
+manifest_base_url: https://allmaps.org/reuzenarbeid/manifests/
 
 # Allmaps
 allmaps_api_base: https://annotations.allmaps.org/manifests/
