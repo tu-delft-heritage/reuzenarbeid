@@ -35,7 +35,7 @@
     year: [1904]
 - 
   id: TRG-9301-A-02
-  oclc: 
+  oclc: [1298544315]
   first-canvas: 48
   projects: 
   -
@@ -80,7 +80,7 @@
     year: 
 - 
   id: TRG-9301-B-02
-  oclc: 
+  oclc: [1295407601]
   first-canvas: 84
   projects: 
   - 
@@ -90,7 +90,7 @@
     year: [1910]
 - 
   id: TRG-9301-C-01
-  oclc: 
+  oclc: [1294291971]
   first-canvas: 88
   projects: 
   -
@@ -150,7 +150,7 @@
     year:
 - 
   id: TRG-9301-C-02
-  oclc: 
+  oclc: [1288324810]
   first-canvas: 121
   projects:
   -
@@ -165,7 +165,7 @@
     year: [1868, 1869, 1870]
 - 
   id: TRG-9301-F-03
-  oclc: 
+  oclc: [1295407846]
   first-canvas: 143
   projects:
   -
@@ -175,7 +175,7 @@
     year: [1875, 1877]
 - 
   id: TRG-9301-F-05
-  oclc: 
+  oclc: [1295407701]
   first-canvas: 146
   projects: 
   -
@@ -185,7 +185,7 @@
     year: [1871]
 - 
   id: TRG-9301-K-01
-  oclc: 
+  oclc: [1299148289]
   first-canvas: 160
   projects:
   -
@@ -270,7 +270,7 @@
     year: [1871]
 - 
   id: TRG-9301-T-02
-  oclc: 
+  oclc: [1299149200]
   first-canvas: 219
   projects:
   -
@@ -395,7 +395,7 @@
     year: [1878, 1879, 1881]
 - 
   id: TRG-9302-Z-01
-  oclc: 
+  oclc: [1299149883]
   first-canvas: 377
   projects:
   -
@@ -520,7 +520,7 @@
     year: [1887, 1888]
 - 
   id: TRK-9105-G-08
-  oclc: [841362051, 841362049]
+  oclc: [841362051, 841362049, 1301476653]
   first-canvas: 420
   projects:
   -
