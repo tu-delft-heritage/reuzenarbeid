@@ -15,7 +15,7 @@ image_base_url: https://dlc.services/iiif-img/7/
 manifest_base_url: https://allmaps.org/reuzenarbeid/manifests/
 
 # Allmaps
-allmaps_api_base: https://annotations.allmaps.org/manifests/
+allmaps_api_base: https://annotations.allmaps.org/images/
 allmaps_viewer_base: https://viewer.allmaps.org/#data=data:text/x-url,
 
 collections:
