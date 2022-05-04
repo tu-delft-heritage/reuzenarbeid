@@ -4,7 +4,7 @@ allmaps:
   title: Brug over de Lek te Culemborg. Situatie (nr. 123)
   sourceUrl: https://hetutrechtsarchief.nl/collectie/609C5B9C7E644642E0534701000A17FD
   sourceTitle: Utrechts Archief
-title: Spoorbrug over de Lek bij Culemborg
+title: Spoorbrug bij Culemborg
 abstract: |
   Als je je nu aan de over van de Lek bij de brug bij Culemborg – of ‘Kuilenburg’, de naam waaronder de brug bekendheid verwierf – bevindt, kan het niet anders dan dat je onder de indruk raakt. Wat een gevaarte! Wat een indrukwekkende constructie! Ontwerper Gerrit van Diesen besloot de brugverbinding, met een overspanning van 154 meter, op deze plek te bouwen. Jan en alleman kwam naar dit reuzenwerk kijken. Tot 1878 zou de brug bij Kuilenburg de grootste overspanning ter wereld hebben!
   De noodzaak van een grote overspanning op die plek hoefde je in de jaren zestig van de negentiende eeuw aan niemand uit te leggen. De Noorder Lekdijk gold als de kwetsbaarste dijk van Nederland; alles was eraan gelegen om daar een doorbraak te voorkomen, dat wil zeggen ongeveer het hele rivierenbeleid erop gericht was daar een ramp te voorkomen. Een doorbraak zou niet alleen de directe omgeving treffen, maar heel Holland liep dan de kans te overstromen. Omdat overstromingen juist bij ijsgang voorkwamen en Van Diesen en zijn collega’s de rivierenproblematiek zeer serieus namen en voor een goede doorvoer van het water juist obstakels wilden verwijderen, dienden er geen nieuwe te worden toegevoegd, zoals brugpijlers. Het zomerbed van de rivier moest daarvan gevrijwaard blijven.
@@ -32,4 +32,4 @@ Wij meenen iedereen te mogen aanraden, om die groote werkzaamheden te komen bezi
 
 Het waren durfals, die arbeiders. Arbo-wetgeving bestond toen duidelijk nog niet, want zie ze toch eens poseren, staande op de brugbogen. Je moest voor dit werk niet alleen een goede arbeider zijn, maar ook een goede acrobaat. Op het hoogtepunt waren dagelijks ongeveer 300 à 400 mensen werkzaam aan de brug. Dat dit niet zonder gevaar was, blijkt wel uit de sterftecijfers: zeven mensen vonden tijdens de werkzaamheden de dood. Van Diesen hield zijn collega’s op de hoogte van de vorderingen. Zo gaf hij op 12 november 1867 een lezing in het Haagse Diligentia-theater, waarbij hij het werk met behulp van tal van afbeeldingen toelichtte; hij schonk bij die gelegenheid ook drie foto’s van de brug in wording aan het Instituut van Ingenieurs. In 1868 kwam de brug bij Culemborg gereed.
 
-{% include iiif-image.html idno="museumcollectie/2002.0052.CTG" uuid="18/56077157-6d15-415e-9515-0dd1f36dac31" region="full" canvas=0 caption="Spoorbrug Culemborg. (1868-1883)" %}
+{% include iiif-image.html manifest="https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/b644a121-1cde-4a28-98b2-92df4f41d6eb.json" uuid="18/56077157-6d15-415e-9515-0dd1f36dac31" region="full" canvas=0 caption="Spoorbrug Culemborg. (1868-1883)" %}

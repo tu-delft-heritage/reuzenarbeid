@@ -4,6 +4,7 @@ allmaps:
   title: Kanaal door Walcheren
   sourceUrl: https://hdl.handle.net/21.12113/7E6E3DF5751A46C881ADE72D3CBE25E6
   sourceTitle: Zeeuws archief
+  animateToMapBounds: false
 title: Kanaal door Walcheren
 abstract: |
   Tussen Arnemuiden en Lewedorp, twee dorpen in Zeeland, lag het Sloe, een water dat de eilanden Walcheren en Zuid-Beveland van elkaar scheidde. In 1871 maakten de ingenieurs van het Koninklijk Instituut van Ingenieurs er een excursie naartoe. Het was een plechtige aangelegenheid, want ze hadden niet hun gewone dagelijkse kloffie aan maar een keurig kostuum en hoge hoed. Opgepropt in een werkwagon zullen ze hun ogen hebben uitgekeken. Hoewel ze dat niet beseften, waren ze getuige van feitelijk het eerste Deltawerk. 

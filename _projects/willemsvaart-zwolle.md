@@ -4,6 +4,7 @@ allmaps:
   title: Kaart Zwolle (1920)
   sourceUrl: https://historischcentrumoverijssel.nl/archieven/?mivast=20&mizig=210&miadt=141&miaet=1&micode=1678&minr=25009356&miview=inv2
   sourceTitle: Collectie Overijssel
+  animateToMapBounds: false
 title: De Zwolse waterweg naar zee
 abstract: |
   Het Zwolsche Diep werd omstreeks 1850 door veel schippers het ‘Zwolsche Ondiep’ genoemd, zo ernstig was het gesteld met de toegankelijkheid van de vaarweg, die via het Zwarte Water naar Zwolle liep. Dat werd een steeds nijpender probleem. Het water – eigenlijk meer een inham van de Zuiderzee – was van belang voor de aanvoer van rijke rivierklei en voor de biezenteelt en visserij (voornamelijk de vangst van bleien of blieken, in het verleden een volksvoedsel), maar vooral toch voor de scheepvaart. Zwolle stond ‘in gemeenschap’ – zoals dat heette – met zuidoost Drenthe en de Drenthse en Overijsselse veenontginningen, met de Dedemsvaart en, niet te vergeten, met Twente waar de textielindustrie halverwege de negentiende eeuw sterk in opkomst was.
