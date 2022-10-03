@@ -1,6 +1,6 @@
 ---
 allmaps:
-  annotationId: upkdumQCQFCYbvKX
+  annotationId: 0bc63637826a70d1
   title: Algemeene kaart van het Groot Amsterdamsch Kanaal door Noord Holland
   sourceUrl: http://archief.amsterdam/archief/10094
   sourceTitle: Stadsarchief Amsterdam

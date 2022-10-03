@@ -1,6 +1,6 @@
 ---
 allmaps:
-  annotationId: Pn3uzsbSicZuU8Qb
+  annotationId: 6eef42193557ec34
   title: Overijssel - Ommerschans - Drenthe - Vledder - Wateren - Veenhuizen gedeeltelijk verkleurde kopie (1870)
   sourceUrl: http://www.drentsarchief.nl/onderzoeken/archiefstukken?mivast=34&mizig=187&miadt=34&miaet=185&micode=0181&minr=10430607&miview=ldt
   sourceTitle: Drents archief

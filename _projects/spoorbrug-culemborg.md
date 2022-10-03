@@ -1,6 +1,6 @@
 ---
 allmaps:
-  annotationId: 1BjvGL61cc2VtSkJ
+  annotationId: 26112f60a85fb55e
   title: Brug over de Lek te Culemborg. Situatie (nr. 123)
   sourceUrl: https://hetutrechtsarchief.nl/collectie/609C5B9C7E644642E0534701000A17FD
   sourceTitle: Utrechts Archief

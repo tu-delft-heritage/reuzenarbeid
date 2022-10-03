@@ -1,6 +1,6 @@
 ---
 allmaps:
-  annotationId: 6mbWiiwSAUh8KmaC
+  annotationId: 699c8751072a03cc
   title: Kanaal door Walcheren
   sourceUrl: https://hdl.handle.net/21.12113/7E6E3DF5751A46C881ADE72D3CBE25E6
   sourceTitle: Zeeuws archief
