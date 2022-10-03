@@ -1,6 +1,6 @@
 ---
 allmaps:
-  annotationId: rjXP3AFAEJnVi8P3
+  annotationId: e3fceee5d3616380
   title: Staats Spoorwegen. Brug of Stoomvlotten van Moerdijk naar Willemsdorp (1867)
   sourceUrl: https://beeldbank.regionaalarchiefdordrecht.nl/search/detail/id/281282C791A454411F4902233031DD3E/showbrowse
   sourceTitle: Regionaal Archief Dordrecht

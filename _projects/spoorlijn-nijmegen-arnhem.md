@@ -1,6 +1,6 @@
 ---
 allmaps:
-  annotationId: Ut45yADUtzsPjWv3
+  annotationId: 537ff50d032d4247
   title: Arnhem (1906)
   sourceUrl: https://www.gelderlandinbeeld.nl/beeldbank/detail/876c6cc3-df7c-4817-889e-51a4edbf8ff3/media/91b31992-3899-46c4-98a7-c18878867478
   sourceTitle: Gelderland in beeld
