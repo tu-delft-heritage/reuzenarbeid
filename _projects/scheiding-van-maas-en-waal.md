@@ -1,6 +1,6 @@
 ---
 allmaps:
-  annotationId: 84iFEdzE2ssV7qXx
+  annotationId: a159f3ec07df5f13
   title: Verlegging van de Uitmonding der rivier de Maas (1909)
   sourceUrl: http://resolver.tudelft.nl/uuid:86278c2e-b165-4d7e-a402-d17e2c16d356
   sourceTitle: TU Delft Library

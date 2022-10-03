@@ -1,6 +1,6 @@
 ---
 allmaps:
-  annotationId: gdwFqCxmNPKe91SH
+  annotationId: c99f3e80b0fb3c59
   title: Kaart van het kanaal van Amsterdam naar de Merwede (1895)
   sourceUrl: https://puc.overheid.nl/rijkswaterstaat/doc/PUC_60585_31/
   sourceTitle: Rijkswaterstaat Rapportendatabank

@@ -1,6 +1,6 @@
 ---
 allmaps:
-  annotationId: PENay42tuhq8jiAs
+  annotationId: 4b945696448b28ce
   title: Verbetering van het Kanaal van Gent naar Ter Neuzen (1902)
   sourceUrl: https://commons.wikimedia.org/wiki/File:KAARTEN_SGD_-_Verbetering_van_het_Kanaal_van_Gent_naar_Ter_Neuzen,_bedoeld_bij_de_overeenkomst_met_Belgie_van_den_29_juni_1895,_goedgekeurd_bij_de_wet_van_29_januari_1897_(Staatsblad_no._62)_en_de_addit.jpeg
   sourceTitle: Wikipedia
