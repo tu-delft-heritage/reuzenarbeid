@@ -8,6 +8,7 @@ title: Kanaal Gent&#8209;Terneuzen
 abstract: |
   De stad Gent wilde graag een zeestad zijn; probleem was wel dat de Westerschelde op Nederlands grondgebied ligt en het eeuwenlang tussen wat wel werd genoemd de Noordelijke Nederlanden en de Zuidelijke Nederlanden niet boterde. Daar kwam in 1815 verandering in: Willem I was koning over zowel Nederland als België. Onder zijn regiem kwam er een nieuw kanaal tot stand. De vereniging tussen beide Nederland duurde maar kort. Pas on 1871 kwam het tot onderhandelingen die slaagden; er werd een verbetering afgesproken.
 ---
+
 {% include iiif-image.html idno="tresor/TRG-9302-A-01" uuid="6/9673b868-ebc7-41c5-83de-7e6dd5d87100" canvas="10" caption="Verbetering van het kanaal van Gent naar Ter Neuzen. Sluishoofden beoosten Sas van Gent (5 october 1904)" region="pct:20,24,60,53" %}
 
  Het hele kanaal werd tussen 1874 en 1882 in België en tussen 1882 en 1885 op Nederlands grondgebied verdiept en verbreed volgens de nieuwe afmetingen van 17 m op de bodem, 57 m op de waterlijn en 68 m van wal tot wal, met een diepgang van 6,50 m. Tussen Sluiskil en Terneuzen waren de afmetingen reeds groot genoeg, zodat over die lengte geen verbreding en verdieping hoefde te gebeuren.
