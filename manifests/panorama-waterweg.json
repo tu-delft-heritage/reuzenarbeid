@@ -1,0 +1,103 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://dlc.services/iiif-img/7/21/56c00e54-47b8-415a-a869-6cb4aba9dcc3",
+    "@type": "sc:Manifest",
+    "metadata": [
+      {
+        "label": "Titel",
+        "value": "Waterweg van Rotterdam naar zee, doorgraving van de Hoek van Holland"
+      },
+      {
+        "label": "Jaar",
+        "value": "1871"
+      },
+      {
+        "label": "Fotograaf",
+        "value": "Carl Philipp Wollrabe"
+      },
+      {
+        "label": "Bron",
+        "value": "<a href=\"https://commons.wikimedia.org/wiki/File:Nieuwe_waterweg_panorama.jpg\">Fotocollectie Rijkswaterstaat, Wikipedia Commons</a><br>Collage door Kevin Siemonsma"
+      }
+    ],
+    "sequences": [
+      {
+        "@id": "https://dlc.services/iiif-img/7/21/56c00e54-47b8-415a-a869-6cb4aba9dcc3/sequence/s0",
+        "@type": "sc:Sequence",
+        "label": "Sequence 0",
+        "viewingHint": "paged",
+        "canvases": [
+          {
+            "@id": "https://dlc.services/iiif-img/7/21/56c00e54-47b8-415a-a869-6cb4aba9dcc3/canvas/c0",
+            "@type": "sc:Canvas",
+            "label": "Image",
+            "thumbnail": {
+              "@id": "https://dlc.services/thumbs/7/21/56c00e54-47b8-415a-a869-6cb4aba9dcc3/full/100,16/0/default.jpg",
+              "@type": "dctypes:Image",
+              "service": {
+                "@context": "http://iiif.io/api/image/2/context.json",
+                "@id": "https://dlc.services/thumbs/7/21/56c00e54-47b8-415a-a869-6cb4aba9dcc3",
+                "profile": [
+                  "http://iiif.io/api/image/2/level0.json",
+                  {
+                    "formats": [
+                      "jpg"
+                    ],
+                    "qualities": [
+                      "color"
+                    ],
+                    "supports": [
+                      "sizeByWhListed"
+                    ]
+                  }
+                ],
+                "width": 1024,
+                "height": 160,
+                "sizes": [
+                  {
+                    "width": 1024,
+                    "height": 160
+                  },
+                  {
+                    "width": 400,
+                    "height": 62
+                  },
+                  {
+                    "width": 200,
+                    "height": 31
+                  },
+                  {
+                    "width": 100,
+                    "height": 16
+                  }
+                ]
+              }
+            },
+            "height": 4328,
+            "width": 27757,
+            "images": [
+              {
+                "@id": "https://dlc.services/iiif-img/7/21/56c00e54-47b8-415a-a869-6cb4aba9dcc3/imageanno/0",
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "resource": {
+                  "@id": "https://dlc.services/iiif-img/7/21/56c00e54-47b8-415a-a869-6cb4aba9dcc3/full/1024,160/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "height": 4328,
+                  "width": 27757,
+                  "service": {
+                    "@id": "https://dlc.services/iiif-img/7/21/56c00e54-47b8-415a-a869-6cb4aba9dcc3",
+                    "protocol": "http://iiif.io/api/image",
+                    "height": 4328,
+                    "width": 27757,
+                    "profile": "http://iiif.io/api/image/2/level1.json"
+                  }
+                },
+                "on": "https://dlc.services/iiif-img/7/21/56c00e54-47b8-415a-a869-6cb4aba9dcc3/canvas/c0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

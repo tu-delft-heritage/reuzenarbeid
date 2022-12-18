@@ -178,7 +178,8 @@ body, .box a, .box a:visited {
   color: var(--black);
 }
 
-section a, section a:visited, .link {
+footer a, footer a:visited, .link {
+  color: var(--black);
   text-decoration: none;
   border-color: var(--red);
   border-width: 3px;
