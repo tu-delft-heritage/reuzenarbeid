@@ -54,6 +54,6 @@ Enkele cijfers:
 |1958-1965|15,50|100|
 |1963-1979|15,50|170|
 
-{% include iiif-image.html manifest="https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/7cdc6179-2168-48b9-8155-ade6144010a3.json" uuid="18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd" region="full" canvas=0 caption="Monding van het Noorzeekanaal bij IJmuiden (1850-75)" %}
+{% include iiif-image.html idno="museumcollectie/2002.0057.CTG" uuid="18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd" region="full" canvas=0 caption="C.C. Kannemans, Monding van het Noorzeekanaal bij IJmuiden (1850-75)" %}
 
 </div>
