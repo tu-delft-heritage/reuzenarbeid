@@ -3,16 +3,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
   <meta charset='utf-8' />
   <title>{{ site.title }}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
-  <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
-
+  <link rel="stylesheet" href="https://cdn.skypack.dev/ol@8.2.0/ol.css" type="text/css">
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
   {% include components/project.html %}
   <div id="map-container">
@@ -41,7 +40,7 @@
     <main>
       <ol id="projects">
         {% for project_id in site.data.projects %}
-          {% include project.html project_id=project_id %}
+        {% include project.html project_id=project_id %}
         {% endfor %}
       </ol>
     </main>
@@ -59,4 +58,5 @@
   </script>
   <script type="module" src="js/script.js"></script>
 </body>
+
 </html>
