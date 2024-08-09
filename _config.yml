@@ -1,9 +1,9 @@
 title: Reuzenarbeid
-base_url: https://allmaps.org/reuzenarbeid/
+base_url: https://tu-delft-heritage.github.io/reuzenarbeid/
 
 # Preferred map tiles
 # tile_url: https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
-tile_url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}'
+tile_url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}"
 # tile_url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
 
 # Preferred IIIF viewer
@@ -12,7 +12,7 @@ viewer_base_url: https://universalviewer.io/uv.html?manifest=
 
 # IIIF Server settings
 image_base_url: https://dlc.services/iiif-img/7/
-manifest_base_url: https://allmaps.org/reuzenarbeid/manifests/
+manifest_base_url: https://tu-delft-heritage.github.io/reuzenarbeid/manifests/
 
 # Allmaps
 allmaps_api_base: https://annotations.allmaps.org/images/
