@@ -7,7 +7,8 @@ tile_url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/M
 # tile_url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
 
 # Preferred IIIF viewer
-viewer_base_url: https://universalviewer.io/uv.html?manifest=
+viewer_base_url: https://theseus-viewer.netlify.app/?iiif-content=
+# viewer_base_url: https://uv-v4.netlify.app/uv.html?manifest=
 # viewer_base_url: https://projectmirador.org/embed/?manifest= # Canvas selection impossible
 
 # IIIF Server settings
@@ -16,7 +17,7 @@ manifest_base_url: https://tu-delft-heritage.github.io/reuzenarbeid/manifests/
 
 # Allmaps
 allmaps_api_base: https://annotations.allmaps.org/images/
-allmaps_viewer_base: https://viewer.allmaps.org/#data=data:text/x-url,
+allmaps_viewer_base: https://viewer.allmaps.org/?url=
 
 collections:
   projects:
