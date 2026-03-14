@@ -1,7 +1,7 @@
 <div class="figure">
   <a
     target="_blank"
-    href="{{ site.viewer_base_url }}{% if include.idno %}{{ site.manifest_base_url }}{{ include.idno }}.json#?canvas-index={{ include.canvas }}{% else %}{{ include.manifest }}{% endif %}"
+    href="{{ site.viewer_base_url }}{% if include.idno %}{{ site.manifest_base_url }}{{ include.idno }}.json&canvas-index={{ include.canvas }}{% else %}{{ include.manifest }}{% endif %}"
   >
     <figure>
       <img
