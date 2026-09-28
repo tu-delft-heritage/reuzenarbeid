@@ -14,27 +14,43 @@ De grootste kolk van de oorspronkelijke dubbele Willemsluis, ontworpen door Jan 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/6bd3bb41-d41a-4aa4-8791-019358e93d2b/info.json"
   data-region="pct:23,18,53,62"
   aria-label="Schutsluis Willem I (16 Maart 1867)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9301-m-04?id=13">Schutsluis Willem I (16 Maart 1867)</a></figcaption>
+  <figcaption>
+
+Schutsluis Willem I (16 Maart 1867). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9301-m-04?id=13)
+
+</figcaption>
 </figure>
 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/8f9dc087-bd72-40ae-8dbf-15e376324fee/info.json"
   data-region="pct:22,18,55,62"
   aria-label="Schutsluis Willem I (29 September 1865)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9301-m-04?id=8">Schutsluis Willem I (29 September 1865)</a></figcaption>
+  <figcaption>
+
+Schutsluis Willem I (29 September 1865). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9301-m-04?id=8)
+
+</figcaption>
 </figure>
 
 Uit welk materiaal bestond de sluis en in welke hoeveelheden moest dit worden aangevoerd? Ontwerper Jan Conrad heeft ons daarover uitvoerig geïnformeerd. De nog bestaande sluis is gebouwd op een houten paalfundering met gemetselde vloer en hardstenen slagdorpels. De sluismuren zijn opgetrokken in waalsteen en de frontmuren in basaltsteen, alles in sterke tras (gemalen tufsteen, een vulkanisch gesteente dat elasticiteit aan de mortel geeft), samengesteld uit drie delen tras en vijf delen schelpkalk. Komplaten, jokdorpels, trappen, dekzerken, slagstijlen, hoekblokken en haalstenen zijn gemaakt van hardsteen. De inmiddels wel vervangen buiten- en binnenvloeddeuren waren gemaakt van van ijzer, de midden-vloeddeuren van eikenhout en de ebdeuren van gecreosoteerd – d.w.z. bewerkt met creosootolie om het te verduurzamen – Schwarzwalder dennenhout. De sluis rust op 3557 ingeheide masten palen. Verder zijn verwerkt: 13.329 kubieke meters klinkers, 9.700.000 stenen, 32.250 HL gezifte schelpkalk en 19.050 HL gezifte tras, 667 kubieke meter hardsteen en 8.764 kilo ijzeren ankers, haalpennen enz.
 
-In het fraaie <a href="https://resolver.kb.nl/resolve?urn=MMKIT03:000207068:00081" class="link">Gedenkboek van het Koninklijk Instituut van Ingenieurs</a>, uitgegeven ter gelegenheid van het 50-jarig bestaan, keek ingenieur Jan Conrad nog eens terug op dit werk. Bij zijn artikel werd natuurlijk een foto van de hand van sterfotograaf Pieter Oosterhuis afgebeeld, genomen op 26 augustus 1864 toen schutsluis Willem III nagenoeg gereed was.
+In het fraaie [Gedenkboek van het Koninklijk Instituut van Ingenieurs](https://resolver.kb.nl/resolve?urn=MMKIT03:000207068:00081), uitgegeven ter gelegenheid van het 50-jarig bestaan, keek ingenieur Jan Conrad nog eens terug op dit werk. Bij zijn artikel werd natuurlijk een foto van de hand van sterfotograaf Pieter Oosterhuis afgebeeld, genomen op 26 augustus 1864 toen schutsluis Willem III nagenoeg gereed was.
 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/92008dfb-7c17-4421-90ee-ae0dcd3e295d/info.json"
   data-region="pct:23,25,54,48"
   aria-label="Schutsluis Willem III (21 Augustus 1864)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trk-9105-h-01?id=9">Schutsluis Willem III (21 Augustus 1864)</a></figcaption>
+  <figcaption>
+
+Schutsluis Willem III (21 Augustus 1864). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trk-9105-h-01?id=9)
+
+</figcaption>
 </figure>
 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/e0b12e11-c0af-456e-b360-27b8a811282c/info.json"
   data-region="pct:22,18,56,64"
   aria-label="Schutsluis Willem III (19 September 1865)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trk-9105-h-01?id=10">Schutsluis Willem III (19 September 1865)</a></figcaption>
+  <figcaption>
+
+Schutsluis Willem III (19 September 1865). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trk-9105-h-01?id=10)
+
+</figcaption>
 </figure>

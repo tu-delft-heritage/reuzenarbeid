@@ -13,13 +13,21 @@ Drenthe was enkele eeuwen geleden een nogal woest en ontoegankelijk gebied dat j
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/a694fc65-3508-48da-8ae8-f2c37524d707/info.json"
   data-region="pct:19,20,63,61"
   aria-label="Drentse hoofdvaart, Dieversluis (25 Juli 1879)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9302-t-02?id=7">Drentse hoofdvaart, Dieversluis (25 Juli 1879)</a></figcaption>
+  <figcaption>
+
+Drentse hoofdvaart, Dieversluis (25 Juli 1879). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9302-t-02?id=7)
+
+</figcaption>
 </figure>
 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/72638804-bee8-4dfe-96ba-4bbd6f8a89bb/info.json"
   data-region="pct:19,20,63,61"
   aria-label="Drentse hoofdvaart, Dieversluis (23 Juni 1880)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9302-t-02?id=11">Drentse hoofdvaart, Dieversluis (23 Juni 1880)</a></figcaption>
+  <figcaption>
+
+Drentse hoofdvaart, Dieversluis (23 Juni 1880). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9302-t-02?id=11)
+
+</figcaption>
 </figure>
 
 De Maatschappij van Weldadigheid telde zeven kolonies: vijf in Nederland en twee in België. De stichter ervan was Johannes van den Bosch, die als Gouverneur-Generaal in Nederlands-Indië het Cultuurstelsel invoerde, waarbij de inheemse bevolking werd gedwongen een deel van hun grond te bebouwen met exportgewassen als koffie en suiker voor de Nederlandse overheid. Het doel van de voormalig gouverneur was om paupers uit de steden een waardig en nuttig bestaan te verschaffen door ze aan het werk te zetten in de te ontginnen gebieden en tegelijkertijd om ze op te voeden tot rechtschapen burgers. Zo dacht hij drie vliegen in één klap te slaan: het arme Drentse land zou erdoor worden ontgonnen en bebouwd, en de steden van hun bedelaars en armen verlost. Bovendien zouden de armelui een nieuw levensperspectief krijgen. Van den Bosch maakte onderscheid tussen ‘vrije koloniën’, waarnaar men min of meer vrijwillig verhuisde (Frederiksoord, Wilhelminaoord en Willemsoord), en onvrije koloniën waar bedelaars, landlopers en armoedzaaiers gedwongen moesten en tewerkgesteld werden (Ommerschans en Veenhuizen).
@@ -27,7 +35,11 @@ De Maatschappij van Weldadigheid telde zeven kolonies: vijf in Nederland en twee
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/c0f8a5ec-8f03-41ce-a673-e1134c8ab096/info.json"
   data-region="pct:19,20,62,60"
   aria-label="Kolonie Veenhuizen, schutsluis III ten westen van de zesde wijk (24 mei 1879)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9302-t-02?id=14">Kolonie Veenhuizen, schutsluis III ten westen van de zesde wijk (24 mei 1879)</a></figcaption>
+  <figcaption>
+
+Kolonie Veenhuizen, schutsluis III ten westen van de zesde wijk (24 mei 1879). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9302-t-02?id=14)
+
+</figcaption>
 </figure>
 
 De bedoelingen van Van den Bosch waren misschien goed, maar in Nederlands-Indië waren de inheemse bewoners al niet goed af met Van den Bosch ideeën en of de paupers het in ons eigen Drenthe zoveel beter hadden, kan met recht worden betwijfeld. Tijdens zijn wandeling door Nederland schreef Van Lennep doorgaans vrij nuchter en beschouwend over wat hij zag en beleefde. Over zijn bezoek aan de Kolonies van Weldadigheid schreef hij daarentegen kritisch en verontwaardigd. De leefomstandigheden in Ommerschans waren volgens hem mensonterend. Op de vraag waar men liever was, in de stad waar men vandaan kwam of in Ommerschans, antwoordde een vrouw zonder omhaal van woorden: ‘Wel, daar waar ik vandaan kom, liever dan in dit vervloekte gebouw dat ik wel in de Noordzee wilde zien.’ Het was niet moeilijk voorbeelden te vinden van de wantoestanden die daar heersten en van het onrecht dat talloze mensen werd aangedaan.
@@ -37,13 +49,21 @@ Van Lenneps beschrijving van de kanalen en vaarten ter plekke loog er evenmin om
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/e35b89f1-8b38-4d06-a682-df20452e6303/info.json"
   data-region="pct:21,23,58,60"
   aria-label="Koloniesluis (30 augustus 1882)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9105-b-04?id=13">Koloniesluis (30 augustus 1882)</a></figcaption>
+  <figcaption>
+
+Koloniesluis (30 augustus 1882). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9105-b-04?id=13)
+
+</figcaption>
 </figure>
 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/1722d49d-7ead-419d-a74e-78623f0214d9/info.json"
   data-region="pct:21,23,59,60"
   aria-label="Koloniesluis (1 oktober 1882)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9105-b-04?id=15">Koloniesluis (1 oktober 1882)</a></figcaption>
+  <figcaption>
+
+Koloniesluis (1 oktober 1882). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9105-b-04?id=15)
+
+</figcaption>
 </figure>
 
 Op de foto’s die van de aanleg en verbetering van de Kolonievaart zijn gemaakt, is met regelmaat een deftig heerschap te zien. Vermoedelijk betreft het ingenieur Johan Strootman (1824-1869). Hij staat vaak wat afgezonderd van de rest, keurig in het pak met overjas, compleet met een hoge hoed op.
@@ -53,11 +73,19 @@ De sluizen in de Kolonievaarten zijn tegenwoordig rijksmonumenten, ook al zijn z
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/a6286329-9390-4904-941b-9126c8e8b0fb/info.json"
   data-region="pct:23,24,55,58"
   aria-label="Kolonievaart, Stroomduiker beneden Sluis I, in de Kanaaldijk en in de Waterlossing (27 Maart 1884)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9105-b-04?id=0">Kolonievaart, Stroomduiker beneden Sluis I, in de Kanaaldijk en in de Waterlossing (27 Maart 1884)</a></figcaption>
+  <figcaption>
+
+Kolonievaart, Stroomduiker beneden Sluis I, in de Kanaaldijk en in de Waterlossing (27 Maart 1884). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9105-b-04?id=0)
+
+</figcaption>
 </figure>
 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/694aba3c-21c7-42fc-b431-1c357a0a207c/info.json"
   data-region="pct:22,21,58,60"
   aria-label="Kolonievaart, Grondduiker onder de Veenwijk (5 Augustus 1882)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9105-b-04?id=2">Kolonievaart, Grondduiker onder de Veenwijk (5 Augustus 1882)</a></figcaption>
+  <figcaption>
+
+Kolonievaart, Grondduiker onder de Veenwijk (5 Augustus 1882). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9105-b-04?id=2)
+
+</figcaption>
 </figure>

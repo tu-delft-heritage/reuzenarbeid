@@ -12,7 +12,11 @@ In het Gedenkboek dat het Koninklijk Instituut van Ingenieurs in 1897 uitbracht 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/a4e0103d-9168-408d-9add-51a8fca7b21a/info.json"
   data-region="pct:24,23,52,52"
   aria-label="Schutsluis te Vianen (1 juni 1886)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9302-m-01?id=9">Schutsluis te Vianen (1 juni 1886)</a></figcaption>
+  <figcaption>
+
+Schutsluis te Vianen (1 juni 1886). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9302-m-01?id=9)
+
+</figcaption>
 </figure>
 
 Rond 1800 klaagden schippers en kooplui al steen en been. Grote schepen voeren over de Zuiderzee via Pampus en Muiden en de Vecht, of met een omweg via de Gelderse IJssel, naar de Rijn. Kleinere schepen konden binnendoor. Koning Willem I slaagde er wel in verbeteringen door te voeren. Onder zijn bewind werd bijvoorbeeld de zogenaamde Keulse Vaart – een stelsel van aaneengesloten vaarten en wateren tussen Amsterdam en de Lek – opgeknapt en kwam het Zederikkanaal van Vianen naar Gorinchem tot stand. Aan de behoeften van de scheepvaart kwam dat te weinig tegemoet. Zo verbood de stad Utrecht het slepen van de schepen door paarden: dat was de taak van arme vrouwen en iets waarmee de kosten van de armenzorg in die stad konden worden gedrukt. Er waren overigens maar weinig schepen die van de vaarweg gebruikmaakten. 
@@ -20,7 +24,11 @@ Rond 1800 klaagden schippers en kooplui al steen en been. Grote schepen voeren o
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/f72ca26f-be9e-492d-9ddc-ac2a07f764cf/info.json"
   data-region="pct:25,23,50,52"
   aria-label="Kanaalgedeelte tusschen den Zeijlweg onder Maarsen en de Schutsluis bewesten Utrecht (16 mei 1890)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9302-h-01?id=0">Kanaalgedeelte tusschen den Zeijlweg onder Maarsen en de Schutsluis bewesten Utrecht (16 mei 1890)</a></figcaption>
+  <figcaption>
+
+Kanaalgedeelte tusschen den Zeijlweg onder Maarsen en de Schutsluis bewesten Utrecht (16 mei 1890). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9302-h-01?id=0)
+
+</figcaption>
 </figure>
 
 Er werd kortom volop geklaagd, en Rudolf Thorbecke trok zich dit aan. Hij begreep dat de opbouw van een modern, liberaal land zoals hij dat voor ogen had niet van de grond kon komen zonder goede infrastructurele voorzieningen. Als minister van Binnenlandse Zaken ging hij daar ook over. Hij stelde in 1852 een commissie in, die al spoedig met een mooi plan voor een ‘rijksvaarwater’ naar de Rijn op de proppen kwam, maar dit plan ging niet door. Al eerder waren mooie brochures verschenen waarin steeds weer andere plannen in geuren en kleuren werden aangeprezen. Zo wilden twee ondernemers de hele IJssel verleggen en kwam een ‘oud-soldaat’ met een plan voor een kanaal door de Gelderse Vallei, wat overigens al veel eerder was voorgesteld. De discussie, die soms wel wat van een ruzie had, laaide sterk op toen de plannen van de aanleg van het Noordzeekanaal ten uitvoer kwamen. Dat leidde onder meer tot de oprichting van een Rijnvaart Comité. Toen het Noordzeekanaal geopend werd, was de kwestie van de achterlandverbinding nog steeds niet opgelost. Voor- en tegenstanders van de diverse plannen roerden zich zo hard, dat er een patstelling ontstond.
@@ -28,7 +36,11 @@ Er werd kortom volop geklaagd, en Rudolf Thorbecke trok zich dit aan. Hij begree
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/38fc22fa-e09b-4a98-adf3-d25d9211d07f/info.json"
   data-region="pct:20,15,61,67"
   aria-label="Schutsluis bij Vreeswijk (25 april 1884)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9302-h-01?id=20">Schutsluis bij Vreeswijk (25 april 1884)</a></figcaption>
+  <figcaption>
+
+Schutsluis bij Vreeswijk (25 april 1884). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9302-h-01?id=20)
+
+</figcaption>
 </figure>
 
 Minister Tak van Poortvliet wist daar wel een oplossing voor: als iedereen zijn eigen kanaal wil, dan geven we ze toch allemaal hun zin? Dat leek wel de leidende gedachte achter zijn ontwerp Kanalenwet van 1878. Iedereen bemoeide zich er weer mee en Taks voorstel voor een kanaal door de Gelderse Vallei naar de Waal bij Dodewaard strandde. Het wetsvoorstel werd met 40 tegen 39 stemmen verworpen. En opnieuw laaide de discussie op en regende het plannen. Uiteindelijk werd de wet die de aanleg van het Merwedekanaal regelde in 1881 aangenomen. De onteigeningsprocedures duurde lang en er deden zich meer tegenslagen voor, zodat het kanaal pas ruim tien jaar nadien in gebruik kon worden genomen.

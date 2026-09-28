@@ -12,7 +12,11 @@ Als je je aan de oever van de Lek bij de brug bij Culemborg – of ‘Kuilenburg
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/1cbb1eeb-2043-4bfc-8140-0b024c95bc0f/info.json"
   data-region="pct:18,25,61,49"
   aria-label="De gehele brug vanaf de linkeroever gezien (30 augustus 1868)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9410-b-05?id=11">De gehele brug vanaf de linkeroever gezien (30 augustus 1868)</a></figcaption>
+  <figcaption>
+
+De gehele brug vanaf de linkeroever gezien (30 augustus 1868). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9410-b-05?id=11)
+
+</figcaption>
 </figure>
 
 De noodzaak van een grote overspanning op die plek hoefde je in de jaren zestig van de negentiende eeuw aan niemand uit te leggen. De Noorder Lekdijk gold als de kwetsbaarste dijk van Nederland; alles was eraan gelegen om daar een doorbraak te voorkomen, dat wil zeggen ongeveer het hele rivierenbeleid erop gericht was daar een ramp te voorkomen. Een doorbraak zou niet alleen de directe omgeving treffen, maar heel Holland liep dan de kans te overstromen. Omdat overstromingen juist bij ijsgang voorkwamen en Van Diesen en zijn collega’s de rivierenproblematiek zeer serieus namen en voor een goede doorvoer van het water juist obstakels wilden verwijderen, dienden er geen nieuwe te worden toegevoegd, zoals brugpijlers. Het zomerbed van de rivier moest daarvan gevrijwaard blijven.
@@ -22,7 +26,11 @@ De nog maar 34-jarige Van Diesen stond voor een zware klus. De rivier de Lek was
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/f5c0612e-d80a-4368-a36c-535cd6273e5b/info.json"
   data-region="pct:37,39,27,29"
   aria-label="Heijen van de damwand voor de stroompijler (8 juli 1865)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9410-b-05?id=5">Heijen van de damwand voor de stroompijler (8 juli 1865)</a></figcaption>
+  <figcaption>
+
+Heijen van de damwand voor de stroompijler (8 juli 1865). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9410-b-05?id=5)
+
+</figcaption>
 </figure>
 
 De brug bij Culemborg telt, naast de hoofdoverspanning van 154 meter, een tweede overspanning van 83,5 meter en nog eens zeven bruggen met overspanningen van 59,5 meter. Van Diesen besloot de brug te bouwen volgens het zogenaamde vakwerkstelsel van de Duitse ingenieur Johann Mohnié dat toen als de beste constructiewijze bekend stond. De Duitse fabrikant Harkort uit het Duitse Harkorten (in het Roergebied) tekende voor de bouw. De grote overspanning kreeg een gebogen bovenrand.
@@ -32,7 +40,11 @@ In 1863 werd begonnen met de constructie van de onderbouw. In 1866 volgde het we
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/434c7b6b-1d81-4107-8934-0e3f00fd38d8/info.json"
   data-region="pct:21,23,59,54"
   aria-label="Steiger in de opening van 80 m. (18 Okober 1866)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9410-b-05?id=6">Steiger in de opening van 80 m. (18 Okober 1866)</a></figcaption>
+  <figcaption>
+
+Steiger in de opening van 80 m. (18 Okober 1866). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9410-b-05?id=6)
+
+</figcaption>
 </figure>
 
 De bouw van de brug was een machtig gezicht, maar een echt toeristische attractie werd het niet. De Rotterdamsche Courant van 23 oktober 1863 probeerde haar lezers echter te verleiden naar Culemborg te komen om het machtige bouwwerk zelf te aanschouwen:
@@ -42,13 +54,21 @@ De bouw van de brug was een machtig gezicht, maar een echt toeristische attracti
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/99fe389b-df68-4ef6-8563-5544ec783ca3/info.json"
   data-region="pct:22,23,58,54"
   aria-label="Steiger in de opening van 150 m. (9 augustus 1867)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9410-b-05?id=7">Steiger in de opening van 150 m. (9 augustus 1867)</a></figcaption>
+  <figcaption>
+
+Steiger in de opening van 150 m. (9 augustus 1867). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9410-b-05?id=7)
+
+</figcaption>
 </figure>
 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/4322031d-90ec-4fb1-8a7d-a5de1cc79dbf/info.json"
   data-region="pct:19,25,60,51"
   aria-label="Noordelijk uiteinde van de brug, vanuit de draagwanden gezien (30 augustus 1868)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9410-b-05?id=9">Noordelijk uiteinde van de brug, vanuit de draagwanden gezien (30 augustus 1868)</a></figcaption>
+  <figcaption>
+
+Noordelijk uiteinde van de brug, vanuit de draagwanden gezien (30 augustus 1868). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9410-b-05?id=9)
+
+</figcaption>
 </figure>
 
 Het waren durfals, die arbeiders. Arbo-wetgeving bestond toen duidelijk nog niet, want zie ze toch eens poseren, staande op de brugbogen. Je moest voor dit werk niet alleen een goede arbeider zijn, maar ook een goede acrobaat. Op het hoogtepunt waren dagelijks ongeveer 300 à 400 mensen werkzaam aan de brug. Dat dit niet zonder gevaar was, blijkt wel uit de sterftecijfers: zeven mensen vonden tijdens de werkzaamheden de dood.
@@ -57,5 +77,9 @@ Van Diesen hield zijn collega’s op de hoogte van de vorderingen. Zo gaf hij op
 
 <figure data-image="https://dlc.services/iiif-img/v3/7/18/56077157-6d15-415e-9515-0dd1f36dac31/info.json"
   aria-label="C.C. Kannemans, Spoorbrug Culemborg (1873)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/b644a121-1cde-4a28-98b2-92df4f41d6eb?id=0">C.C. Kannemans, Spoorbrug Culemborg (1873)</a></figcaption>
+  <figcaption>
+
+C.C. Kannemans, Spoorbrug Culemborg (1873). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/b644a121-1cde-4a28-98b2-92df4f41d6eb?id=0)
+
+</figcaption>
 </figure>

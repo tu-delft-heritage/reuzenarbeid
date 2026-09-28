@@ -12,7 +12,11 @@ Voor ingenieurs van de twintigste eeuw zou het projectje van niks zijn geweest; 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/aa70e437-959a-4cf3-9f31-0517fe697353/info.json"
   data-region="pct:21,24,57,52"
   aria-label="Afdaming van het Sloe ten tijde van laag water. Gezien van de dijk van de Suzanna Polder ten zuiden van de spoorwegas (1871)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9301-p-02?id=22">Afdaming van het Sloe ten tijde van laag water. Gezien van de dijk van de Suzanna Polder ten zuiden van de spoorwegas (1871)</a></figcaption>
+  <figcaption>
+
+Afdaming van het Sloe ten tijde van laag water. Gezien van de dijk van de Suzanna Polder ten zuiden van de spoorwegas (1871). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9301-p-02?id=22)
+
+</figcaption>
 </figure>
 
 Tussen Arnemuiden en Lewedorp, twee dorpen in Zeeland, lag het Sloe, een water dat de eilanden Walcheren en Zuid-Beveland van elkaar scheidde. In 1871 maakten de ingenieurs van het Koninklijk Instituut van Ingenieurs er een excursie naartoe. Het was een plechtige aangelegenheid, want ze hadden niet hun gewone dagelijkse kloffie aan maar een keurig kostuum en hoge hoed. Opgepropt in een werkwagon zullen ze hun ogen hebben uitgekeken. Hoewel ze dat niet beseften, waren ze getuige van feitelijk het eerste Deltawerk. 
@@ -24,13 +28,21 @@ Op het diepste deel werd een 2 à 3 meter hoge drempel van zinkstukken aangebrac
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/d97af9cd-0492-46ab-bb06-e2acc3a24d2d/info.json"
   data-region="pct:21,24,57,51"
   aria-label="Afdaming van het Sloe ten tijde van hoog water. Gezien van de dijk van de Suzanna Polder ten zuiden van de spoorwegas (1871)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9301-p-02?id=23">Afdaming van het Sloe ten tijde van hoog water. Gezien van de dijk van de Suzanna Polder ten zuiden van de spoorwegas (1871)</a></figcaption>
+  <figcaption>
+
+Afdaming van het Sloe ten tijde van hoog water. Gezien van de dijk van de Suzanna Polder ten zuiden van de spoorwegas (1871). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9301-p-02?id=23)
+
+</figcaption>
 </figure>
 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/8555b99d-534b-48f0-9e15-559b433931dc/info.json"
   data-region="pct:21,24,57,50"
   aria-label="Afdaming van het Sloe ten tijde van hoog water. Gezien van de dijk van de Suzanna Polder ten zuiden van de spoorwegas (1871)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9301-p-02?id=24">Afdaming van het Sloe ten tijde van hoog water. Gezien van de dijk van de Suzanna Polder ten zuiden van de spoorwegas (1871)</a></figcaption>
+  <figcaption>
+
+Afdaming van het Sloe ten tijde van hoog water. Gezien van de dijk van de Suzanna Polder ten zuiden van de spoorwegas (1871). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9301-p-02?id=24)
+
+</figcaption>
 </figure>
 
 De eerste plannen voor afsluiting van het Sloe ontstonden al aan het begin van de negentiende eeuw. In 1810 voer niemand minder dan keizer Napoleon door dit water. Hij ontbood de waterbouwkundige Andries Schraver om zich in dit probleem te verdiepen, die een jaar later al naar Parijs reisde om Napoleon te tonen hoe hij zich dat voor ogen stelde. Zijn plan omvatte naast de afsluiting het graven van twee kanalen. Napoleon, het is bekend, regeerde te kort over Nederland om de uitvoering daadwerkelijk gestalte te geven, en hoewel ook koning Willem I en na hem nog anderen op plan hiertoe broedden, kwam er niets van terecht. Dat veranderde toen het plan voor de aanleg van een spoorlijn naar Vlissingen concreter werd. Bij de aanleg van deze spoorlijn kon in beginsel wel een spoorbrug over het Sloe worden gebouwd, maar men gaf er over het algemeen de voorkeur aan het water toch af te dammen. In 1846 kreeg een particuliere maatschappij concessie voor de aanleg van de spoorweg, maar de uitvoering van het werk vorderde lange tijd nauwelijks, totdat de staat ingreep. 
@@ -42,13 +54,21 @@ Tussen Westerschelde en Oosterschelde kwam ter vervanging van de doorvaart door 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/aef0ba6d-e4d2-4685-bf66-3099b7c59841/info.json"
   data-region="pct:22,25,56,50"
   aria-label="Dubbele schutsluis te Vlissingen gezien uit het noordoosten (1869)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9302-z-01?id=8">Dubbele schutsluis te Vlissingen gezien uit het noordoosten (1869)</a></figcaption>
+  <figcaption>
+
+Dubbele schutsluis te Vlissingen gezien uit het noordoosten (1869). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9302-z-01?id=8)
+
+</figcaption>
 </figure>
 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/31f935c4-2fbb-40d8-9129-bf8a10c9ea91/info.json"
   data-region="pct:22,26,56,50"
   aria-label="Dubbele schutsluis te Vlissingen gezien uit het noordwesten (1869)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trg-9302-z-01?id=9">Dubbele schutsluis te Vlissingen gezien uit het noordwesten (1869)</a></figcaption>
+  <figcaption>
+
+Dubbele schutsluis te Vlissingen gezien uit het noordwesten (1869). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trg-9302-z-01?id=9)
+
+</figcaption>
 </figure>
 
 In 1871 kon vervolgens het Sloe afgedamd en twee jaar later werd de spoorweg al geopend. Tot na de Tweede Wereldoorlog reed de trein daar nog door de slikken en schorren, poelen en kreken; ‘uitgestrekte watervlakten’, zo omschreef de reislustige dominee Craandijk het in 1880. ‘Daar ginds, langs Veeres hooge kerk, zien wij in zee en aan de andere zijde ontwaren wij den blinkenden spiegel der Wester-Schelde’. 
@@ -63,11 +83,19 @@ Vanwege de oprichting van de Stoomvaart Maatschappij Zeeland en scheepsbouwer De
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/b550952e-07eb-4890-8726-e78fa35425f4/info.json"
   data-region="pct:26,18,49,58"
   aria-label="Het droogdok te Middelburg">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=10">Het droogdok te Middelburg</a></figcaption>
+  <figcaption>
+
+Het droogdok te Middelburg. [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=10)
+
+</figcaption>
 </figure>
 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/0285985a-fdad-4e92-b9de-9d6a5b5f88ad/info.json"
   data-region="pct:21,20,54,57"
   aria-label="Het droogdok te Middelburg">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=11">Het droogdok te Middelburg</a></figcaption>
+  <figcaption>
+
+Het droogdok te Middelburg. [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=11)
+
+</figcaption>
 </figure>

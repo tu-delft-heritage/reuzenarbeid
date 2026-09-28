@@ -12,7 +12,11 @@ Amsterdam vormde in de Gouden zeventiende Eeuw het centrum van de wereld of met 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/285406a5-86c1-46bc-91b2-b2a487cc9e63/info.json"
   data-region="pct:19,21,62,58"
   aria-label="Noorderhavenhoofd met werksteiger in zee en stelling op het strand voor den aanvoer der betonblokken (1869)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=24">Noorderhavenhoofd met werksteiger in zee en stelling op het strand voor den aanvoer der betonblokken (1869)</a></figcaption>
+  <figcaption>
+
+Noorderhavenhoofd met werksteiger in zee en stelling op het strand voor den aanvoer der betonblokken (1869). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=24)
+
+</figcaption>
 </figure>
 
 De inwijding van het Noordzeekanaal en de haven van IJmuiden op 1 november 1876 was een hele belevenis: daarbij waren aanwezig ‘vertegenwoordigers van vreemde regeeringen’, ministers en hoofden van departementen, presidenten en leden van de Raad van State, leden van de Eerste en Tweede Kamer, plaatselijke vertegenwoordigers in alle rangen en standen en de ‘Hooggeachte Vrouwenschaar, die door Uwe tegenwoordigheid aan elk en bijgevolg ook aan dit feest, verhoogden luister bijzet’. Het weer noodde niet tot uitbundige feestelijkheden, zeker niet voor het op het feestterrein samengeschoolde publiek. Het voordeel van deze stormachtige novembermiddag was wel dat het ‘de deugdelijkheid van het werk op schitterende wijze’, deed uitkomen aldus het verslag in de kranten.
@@ -20,7 +24,11 @@ De inwijding van het Noordzeekanaal en de haven van IJmuiden op 1 november 1876 
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/4b6a0e31-997b-4489-9051-e5d4fc1791d4/info.json"
   data-region="pct:18,21,64,58"
   aria-label="Noordelijk havenhoofd met werksteiger (1869)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=26">Noordelijk havenhoofd met werksteiger (1869)</a></figcaption>
+  <figcaption>
+
+Noordelijk havenhoofd met werksteiger (1869). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=26)
+
+</figcaption>
 </figure>
 
 Na een optreden van de Kapel van de Amsterdamsche Schutterij en het Amstels Mannenkoor, en na een lange feestrede over de totstandkoming van het kanaal door de president van de Amsterdamse Kanaalmaatschappij S.W. Josephus Jitta, ging het gezelschap aan boord van een van de stoomschepen die bij de sluis klaarlagen. Voor veel dames was de weersgesteldheid toch te slecht. Mochten zij het tochtje naar zee laten voor wat het was, dan bestond de gelegenheid om, na het schutten van de sluizen, alsnog aan boord te gaan van een van die schepen en een boottocht te maken door het nieuwe kanaal naar Amsterdam.
@@ -28,7 +36,11 @@ Na een optreden van de Kapel van de Amsterdamsche Schutterij en het Amstels Mann
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/abbbb024-046c-4a9d-8989-9e8fb3938e47/info.json"
   data-region="pct:18,21,62,56"
   aria-label="Bouw afsluitdijk in het IJ (1868)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=37">Bouw afsluitdijk in het IJ (1868)</a></figcaption>
+  <figcaption>
+
+Bouw afsluitdijk in het IJ (1868). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=37)
+
+</figcaption>
 </figure>
 
 De koning zelf – Willem III – schijnt weinig zin te hebben gehad in al die poespas. Hij stond bekend als een nukkig heerschap en deed die reputatie eer aan, ook op die dag. Hoe dan ook koos hij er wel voor het zeegat uit te varen. Na een korte tocht buiten de sluizen, keerde de kapitein het schip, en het binnenvaren van de sluizen verliep, ondanks het ongunstige weer, met succes. De koning ondertekende vervolgens met de veer der vogelen, de adelaar – een veer die hij zes jaar eerder ook had gebruikt bij het tekenen van de oorkonde van de plechtigheid die plaatsvond ter gelegenheid van de Oranjesluizen – de volgende tekst:
@@ -38,7 +50,11 @@ De koning zelf – Willem III – schijnt weinig zin te hebben gehad in al die p
 <figure data-image="https://dlc.services/iiif-img/v3/7/6/2d5e1d90-0791-41d5-9418-c0873d5ff077/info.json"
   data-region="pct:18,21,62,56"
   aria-label="Oranjesluizen tijdens de bouw (13 juni 1870)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=34">Oranjesluizen tijdens de bouw (13 juni 1870)</a></figcaption>
+  <figcaption>
+
+Oranjesluizen tijdens de bouw (13 juni 1870). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/trk-9105-g-08?id=34)
+
+</figcaption>
 </figure>
 
 Daarna zetten vele andere hoogwaardigheidsbekleders hun handtekening op de oorkonde. In zijn toespraak had president Simon Josephus Jitta zijn verwachting van het nieuwe kanaal meer dan duidelijk kenbaar gemaakt. Ten overstaan van de Amsterdamse bestuurders sprak hij:
@@ -70,9 +86,15 @@ Enkele cijfers:
 |1958-1965|15,50|100|
 |1963-1979|15,50|170|
 
+</div>
+
 <figure data-image="https://dlc.services/iiif-img/v3/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd/info.json"
   aria-label="C.C. Kannemans, Monding van het Noorzeekanaal bij IJmuiden (1850-75)">
-  <figcaption><a href="https://heritage.tudelft.nl/nl/objects/7cdc6179-2168-48b9-8155-ade6144010a3?id=0">C.C. Kannemans, Monding van het Noorzeekanaal bij IJmuiden (1850-75)</a></figcaption>
+  <figcaption>
+
+C.C. Kannemans, Monding van het Noorzeekanaal bij IJmuiden (1850-75). [TU Delft Library](https://heritage.tudelft.nl/nl/objects/7cdc6179-2168-48b9-8155-ade6144010a3?id=0)
+
+</figcaption>
 </figure>
 
-</div>
+
