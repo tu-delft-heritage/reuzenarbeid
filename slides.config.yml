@@ -14,16 +14,37 @@ slideshows:
       center:
       - 5.1
       - 52.1
-      zoom: 6.5
+      zoom: 8
 sources:
   projects:
     type: geojson
     path: assets/geojson/projects.geojson
 site:
   publicUrl: https://tu-delft-heritage.github.io/reuzenarbeid/
+theme:
+  fg: "#CB7679"
+  bg: "#D2E1E6"
+map:
+  theme: light
 protomaps:
   key: cada70bc6a47dab4
   locale: nl
+  overrides:
+    water: "#D2E1E6"
+    park_a: "#D0B8BC"
+    park_b: "#D0B8BC"
+    wood_a: "#D0B8BC"
+    wood_b: "#D0B8BC"
+    scrub_a: "#D0B8BC"
+    scrub_b: "#D0B8BC"
+    zoo: "#D0B8BC"
+    landcover:
+      farmland: "#D0B8BC"
+      forest: "#D0B8BC"
+      grassland: "#D0B8BC"
+      scrub: "#D0B8BC"
+    pois:
+      green: "#D0B8BC"
 interface:
   text:
     open: Openen
