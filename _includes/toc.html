@@ -1,9 +1,0 @@
-<ol class="toc" id="{{ include.id }}">
-    {% for project_id in site.data.projects %}
-      {% assign path = '/projects/' | append: project_id %}
-      {% assign project = site.projects | where:'id', path | first %}
-    <li>
-      <a href="#{{ project_id }}">{{ project.title }}</a>
-    </li>
-    {% endfor %}
-  </ol>

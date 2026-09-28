@@ -1,0 +1,127 @@
+title: Reuzenarbeid
+description:
+  short: De bouw van het moderne Nederland, 1861–1918
+  long: De bouw van het moderne Nederland in de periode 1861–1918, in historische foto’s, kaarten en teksten
+    van Willem van der Ham.
+main: main
+credits: credits.md
+slideshows:
+- id: main
+  path: slideshows/00-main
+  title: Reuzenarbeid
+  start:
+    location:
+      center:
+      - 5.1
+      - 52.1
+      zoom: 8
+sources:
+  projects:
+    type: geojson
+    path: assets/geojson/projects.geojson
+site:
+  publicUrl: https://tu-delft-heritage.github.io/reuzenarbeid/
+theme:
+  fg: "#CB7679"
+  bg: "#D2E1E6"
+map:
+  theme: light
+protomaps:
+  key: cada70bc6a47dab4
+  locale: nl
+  overrides:
+    water: "#D2E1E6"
+    park_a: "#D0B8BC"
+    park_b: "#D0B8BC"
+    wood_a: "#D0B8BC"
+    wood_b: "#D0B8BC"
+    scrub_a: "#D0B8BC"
+    scrub_b: "#D0B8BC"
+    zoo: "#D0B8BC"
+    landcover:
+      farmland: "#D0B8BC"
+      forest: "#D0B8BC"
+      grassland: "#D0B8BC"
+      scrub: "#D0B8BC"
+    pois:
+      green: "#D0B8BC"
+interface:
+  text:
+    open: Openen
+    close: Sluiten
+    expand: Uitklappen
+    collapse: Inklappen
+    show: Tonen
+    hide: Verbergen
+    sections: Paragrafen
+    chapterNumber: Hoofdstuk {number}
+    startButton: Start
+    chapterCountSingular: '{count} hoofdstuk'
+    chapterCountPlural: '{count} hoofdstukken'
+    madeWith: Gemaakt met
+    productName: Allmaps Slides
+    navigation: Navigatie
+    options: Opties
+    previousChapter: Vorig hoofdstuk
+    previousChapterTitle: 'Vorig hoofdstuk: {title}'
+    nextChapter: Volgend hoofdstuk
+    nextChapterTitle: 'Volgend hoofdstuk: {title}'
+    chapterPosition: Hoofdstuk {current} van {total}
+    chapterCounter: '{current} / {total}'
+    slideshowProgress: Voortgang
+    mapLayers: Kaartlagen
+    backgroundMap: Achtergrondkaart
+    chapters: Inhoudsopgave
+    lightMode: Lichte weergave
+    darkMode: Donkere weergave
+    hideSidePanel: Tekstpaneel verbergen
+    showSidePanel: Tekstpaneel tonen
+    backToMain: Terug naar het hoofdverhaal
+    backToTitle: Terug naar {title}
+    scrollToTop: Terug naar boven
+    credits: Colofon
+    noCredits: Er is geen colofon voor dit verhaal.
+    expandAll: Alles uitklappen
+    collapseAll: Alles inklappen
+    slides: Slides
+    subslideshows: Onderdelen
+    slideCountSingular: '{count} slide'
+    slideCountPlural: '{count} slides'
+    slideCard: '{title}, slide {current} van {total}'
+    slideshowCard: '{title}, {count}'
+    mapCount: Kaarten tonen ({count})
+    mapCountSingular: '{count} kaart'
+    mapCountPlural: '{count} kaarten'
+    mapLayer: Kaart {count}
+    imageLayer: Afbeelding
+    georeferenceAnnotation: Georeferentie
+    noLayers: Geen kaarten bij deze slide
+    visibleLayerSingular: '{count} kaart zichtbaar'
+    visibleLayerPlural: '{count} kaarten zichtbaar'
+    hiddenLayerCount: '{visible}, {count} verborgen'
+    openInAllmaps: Openen in Allmaps
+    showFullMap: Volledige kaart tonen
+    restoreMapView: Diaweergave herstellen
+    noWarpedMaps: Deze dia bevat geen gegeorefereerde kaarten.
+    showTextPanel: Tekstpaneel tonen
+    reduceTextPanel: Tekstpaneel verkleinen
+    expandTextPanel: Tekstpaneel vergroten
+    panelDragHint: Sleep omhoog om te vergroten of omlaag om te verbergen
+    panelDragInstructions: Sleep omhoog om het tekstpaneel te vergroten of omlaag om het te verbergen.
+      Gebruik de pijltjestoetsen omhoog en omlaag om de grootte te wijzigen.
+    map: Kaart
+    zoomIn: Inzoomen
+    zoomOut: Uitzoomen
+    resetNorth: Noorden boven
+    image: Afbeelding
+    enlargeImage: 'Afbeelding vergroten: {title}'
+    imageZoom: Afbeelding zoomen
+    loadingImage: Afbeelding laden…
+    imageLoadError: De IIIF-afbeelding kon niet worden geladen.
+    tryAgain: Opnieuw proberen
+    downloadPreview: Voorbeeldafbeelding downloaden
+    downloadView: Afbeeldingsweergave downloaden
+    previewDownloadError: De voorbeeldafbeelding kon niet worden gedownload.
+    viewDownloadError: De afbeeldingsweergave kon niet worden gedownload.
+iiif:
+  enabled: false
