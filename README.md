@@ -1,41 +1,34 @@
 # Reuzenarbeid
 
-Historische foto’s, kaarten en teksten over de bouw van het moderne Nederland (1861–1918), naar het boek van Willem van der Ham. Contentpakket voor [Allmaps Slides](https://github.com/allmaps/slides).
+Historical photographs, maps and stories about the construction of the modern
+Netherlands (1861–1918), based on the book by Willem van der Ham.
+The site is built with [Allmaps Slides](https://github.com/allmaps/slides).
 
-## Making changes
+## Edit the story
 
-- Edit chapters in `slideshows/00-main/`; numeric filename prefixes set their order, carried over from `_data/projects.yml`.
-- Edit the overall title, description, shared map layers and Dutch interface text in `slides.config.yml`.
-- The introduction is `slideshows/00-main/00-introductie.md`; credits are in `credits.md`.
-- Project routes are in `assets/geojson/projects.geojson`. Their SimpleStyle properties define the shared layer’s appearance in the app and thumbnails.
-- Figures use external IIIF Image API services with `data-image` and preserve the original crops with `data-region`. Caption links point to the heritage object and its **zero-based** canvas index (`?id=…`). Paintings use their current heritage object IDs. The Nieuwe Waterweg panorama is not in the two heritage collections; its caption retains the Wikimedia/Rijkswaterstaat source.
+- [slideshows/00-main](slideshows/00-main): chapters in numeric filename order.
+- [slides.config.yml](slides.config.yml): title, maps and Dutch interface labels.
+- [credits.md](credits.md): sources and acknowledgements.
+- [assets/geojson/projects.geojson](assets/geojson/projects.geojson): project routes.
 
-The conversion replaces Jekyll’s templates and runtime. The original files remain in Git history. Texts, project order, illustrations and georeferenced-map sources are preserved; `animateToMapBounds` is omitted.
+[Content notes](docs/content.md) explain image sources, crops, local annotations
+and the migration from Jekyll.
+See the [Slides authoring guide](https://github.com/allmaps/slides/blob/main/docs/authoring.md)
+for the Markdown format.
 
-## Running locally
+## Preview and build
 
-Use Node 24 and pnpm 10. From the Slides repository:
-
-```sh
-pnpm install
-pnpm exec slides validate ./content/reuzenarbeid
-pnpm exec slides dev ./content/reuzenarbeid
-```
-
-## Building
+Use Node.js 24 or later and pnpm 10. Run from this repository:
 
 ```sh
-pnpm exec slides thumbnails ./content/reuzenarbeid
-pnpm exec slides build ./content/reuzenarbeid
-pnpm exec slides preview ./content/reuzenarbeid
+pnpm install --frozen-lockfile
+pnpm dev
 ```
 
-Local IIIF generation is disabled: the illustrations already have hosted IIIF services and the cover is served directly. Thumbnail generation remains enabled. The Protomaps key is shared with Gravity at Sea.
+After editing, run `pnpm validate` and `pnpm build`. Builds generate local IIIF
+images and map previews automatically. Use `pnpm exec slides iiif .` to refresh
+local images during development.
 
-Pushes to `main` deploy to GitHub Pages using the shared Slides app. The workflow can also be run manually; `SLIDES_REF` selects the framework revision.
-
-## Origins
-
-Based on [The Changing Shoreline of New York City](http://spacetime.nypl.org/the-changing-shoreline-of-nyc/).
-
-Inspired by [Travel the path of the solar eclipse](https://www.washingtonpost.com/graphics/national/mapping-the-2017-eclipse).
+Pushes to `main` run the [GitHub Pages workflow](.github/workflows/deploy-pages.yml).
+The Slides version is pinned in `package.json` and `pnpm-lock.yaml`.
+See [deployment](docs/deployment.md) for setup, upgrades and cache controls.

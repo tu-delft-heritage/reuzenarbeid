@@ -3,3 +3,5 @@ dist/
 .slides/
 .svelte-kit/
 .DS_Store
+
+.container-cache/
